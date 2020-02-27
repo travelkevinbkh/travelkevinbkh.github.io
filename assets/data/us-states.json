@@ -1,0 +1,210 @@
+{
+  "AL": {
+    "ch": "阿拉巴馬",
+    "en": "Alabama"
+  },
+  "AK": {
+    "ch": "阿拉斯加",
+    "en": "Alaska"
+  },
+  "AZ": {
+    "ch": "亞利桑那",
+    "en": "Arizona"
+  },
+  "AR": {
+    "ch": "阿肯色",
+    "en": "Arkansas"
+  },
+  "CA": {
+    "ch": "加利福尼亞",
+    "en": "California"
+  },
+  "CO": {
+    "ch": "科羅拉多",
+    "en": "Colorado"
+  },
+  "CT": {
+    "ch": "康乃狄克",
+    "en": "Connecticut"
+  },
+  "DE": {
+    "ch": "德拉瓦",
+    "en": "Delaware"
+  },
+  "FL": {
+    "ch": "佛羅里達",
+    "en": "Florida"
+  },
+  "GA": {
+    "ch": "喬治亞",
+    "en": "Georgia"
+  },
+  "HI": {
+    "ch": "夏威夷",
+    "en": "Hawaii"
+  },
+  "ID": {
+    "ch": "愛達荷",
+    "en": "Idaho"
+  },
+  "IL": {
+    "ch": "伊利諾",
+    "en": "Illinois"
+  },
+  "IN": {
+    "ch": "印第安納",
+    "en": "Indiana"
+  },
+  "IA": {
+    "ch": "愛荷華",
+    "en": "Iowa"
+  },
+  "KS": {
+    "ch": "堪薩斯",
+    "en": "Kansas"
+  },
+  "KY": {
+    "ch": "肯塔基",
+    "en": "Kentucky"
+  },
+  "LA": {
+    "ch": "路易斯安那",
+    "en": "Louisiana"
+  },
+  "ME": {
+    "ch": "緬因",
+    "en": "Maine"
+  },
+  "MD": {
+    "ch": "馬里蘭",
+    "en": "Maryland"
+  },
+  "MA": {
+    "ch": "麻薩諸塞",
+    "en": "Massachusetts"
+  },
+  "MI": {
+    "ch": "密西根",
+    "en": "Michigan"
+  },
+  "MN": {
+    "ch": "明尼蘇達",
+    "en": "Minnesota"
+  },
+  "MS": {
+    "ch": "密西西比",
+    "en": "Mississippi"
+  },
+  "MO": {
+    "ch": "密蘇里",
+    "en": "Missouri"
+  },
+  "MT": {
+    "ch": "蒙大拿",
+    "en": "Montana"
+  },
+  "NE": {
+    "ch": "內布拉斯加",
+    "en": "Nebraska"
+  },
+  "NV": {
+    "ch": "內華達",
+    "en": "Nevada"
+  },
+  "NH": {
+    "ch": "新罕布夏",
+    "en": "New Hampshire"
+  },
+  "NJ": {
+    "ch": "新澤西",
+    "en": "New Jersey"
+  },
+  "NM": {
+    "ch": "新墨西哥",
+    "en": "New Mexico"
+  },
+  "NY": {
+    "ch": "紐約",
+    "en": "New York"
+  },
+  "NC": {
+    "ch": "北卡羅來納",
+    "en": "North Carolina"
+  },
+  "ND": {
+    "ch": "北達科他",
+    "en": "North Dakota"
+  },
+  "OH": {
+    "ch": "俄亥俄",
+    "en": "Ohio"
+  },
+  "OK": {
+    "ch": "奧克拉荷馬",
+    "en": "Oklahoma"
+  },
+  "OR": {
+    "ch": "奧勒岡",
+    "en": "Oregon"
+  },
+  "PA": {
+    "ch": "賓夕法尼亞",
+    "en": "Pennsylvania"
+  },
+  "RI": {
+    "ch": "羅德島",
+    "en": "Rhode Island"
+  },
+  "SC": {
+    "ch": "南卡羅來納",
+    "en": "South Carolina"
+  },
+  "SD": {
+    "ch": "南達科他",
+    "en": "South Dakota"
+  },
+  "TN": {
+    "ch": "田納西",
+    "en": "Tennessee"
+  },
+  "TX": {
+    "ch": "德克薩斯",
+    "en": "Texas"
+  },
+  "UT": {
+    "ch": "猶他",
+    "en": "Utah"
+  },
+  "VT": {
+    "ch": "佛蒙特",
+    "en": "Vermont"
+  },
+  "VA": {
+    "ch": "維吉尼亞",
+    "en": "Virginia"
+  },
+  "WA": {
+    "ch": "華盛頓",
+    "en": "Washington"
+  },
+  "WV": {
+    "ch": "西維吉尼亞",
+    "en": "West Virginia"
+  },
+  "WI": {
+    "ch": "威斯康辛",
+    "en": "Wisconsin"
+  },
+  "WY": {
+    "ch": "懷俄明",
+    "en": "Wyoming"
+  },
+  "AS": {
+    "ch": "美屬薩摩亞",
+    "en": "American Samoa"
+  },
+  "VI": {
+    "ch": "美屬維京群島",
+    "en": "Virgin Islands"
+  }
+}

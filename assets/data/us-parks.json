@@ -1,0 +1,564 @@
+{
+  "acadia": {
+    "ch": "阿卡迪亞",
+    "en": "Acadia",
+    "states": [
+      "ME"
+    ],
+    "nps_url": "acad",
+    "region": "East"
+  },
+  "hot-strings": {
+    "ch": "溫泉",
+    "en": "Hot Strings",
+    "states": [
+      "AR"
+    ],
+    "nps_url": "hosp",
+    "region": "East"
+  },
+  "great-smoky-mountains": {
+    "ch": "大煙山",
+    "en": "Great Smoky Mountains",
+    "states": [
+      "TN",
+      "NC"
+    ],
+    "nps_url": "grsm",
+    "region": "East"
+  },
+  "shenandoah": {
+    "ch": "仙納度",
+    "en": "Shenandoah",
+    "states": [
+      "VA"
+    ],
+    "nps_url": "shen",
+    "region": "East"
+  },
+  "isle-royale": {
+    "ch": "皇家島",
+    "en": "Isle Royale",
+    "states": [
+      "MI"
+    ],
+    "nps_url": "isro",
+    "region": "East"
+  },
+  "mammoth-cave": {
+    "ch": "猛獁洞",
+    "en": "Mammoth Cave",
+    "states": [
+      "KY"
+    ],
+    "nps_url": "maca",
+    "region": "East"
+  },
+  "everglade": {
+    "ch": "大沼澤",
+    "en": "Everglade",
+    "states": [
+      "FL"
+    ],
+    "nps_url": "ever",
+    "region": "East"
+  },
+  "virgin-islands": {
+    "ch": "維京群島",
+    "en": "Virgin Islands",
+    "states": [
+      "VI"
+    ],
+    "nps_url": "viis",
+    "region": "East"
+  },
+  "voyageurs": {
+    "ch": "探險家",
+    "en": "Voyageurs",
+    "states": [
+      "MN"
+    ],
+    "nps_url": "voya",
+    "region": "East"
+  },
+  "biscayne": {
+    "ch": "畢思肯",
+    "en": "Biscayne",
+    "states": [
+      "FL"
+    ],
+    "nps_url": "bisc",
+    "region": "East"
+  },
+  "dry-tortugas": {
+    "ch": "干龜",
+    "en": "Dry Tortugas",
+    "states": [
+      "FL"
+    ],
+    "nps_url": "drto",
+    "region": "East"
+  },
+  "cuyahoga-valley": {
+    "ch": "庫雅荷加谷",
+    "en": "Cuyahoga Valley",
+    "states": [
+      "OH"
+    ],
+    "nps_url": "cuva",
+    "region": "East"
+  },
+  "congaree": {
+    "ch": "坎格瑞",
+    "en": "Congaree",
+    "states": [
+      "SC"
+    ],
+    "nps_url": "cong",
+    "region": "East"
+  },
+  "indiana-dunes": {
+    "ch": "印第安納沙丘",
+    "en": "Indiana Dunes",
+    "states": [
+      "IN"
+    ],
+    "nps_url": "indu",
+    "region": "East"
+  },
+  "gateway-arch": {
+    "ch": "聖路易斯拱門",
+    "en": "Gateway Arch",
+    "states": [
+      "MO"
+    ],
+    "nps_url": "jeff",
+    "region": "East"
+  },
+  "yellowstone": {
+    "ch": "黃石",
+    "en": "Yellowstone",
+    "states": [
+      "WY",
+      "MT",
+      "ID"
+    ],
+    "nps_url": "yell",
+    "region": "Mountain"
+  },
+  "wind-cave": {
+    "ch": "風穴",
+    "en": "Wind Cave",
+    "states": [
+      "SD"
+    ],
+    "nps_url": "wica",
+    "region": "Mountain"
+  },
+  "glacier": {
+    "ch": "冰河",
+    "en": "Glacier",
+    "states": [
+      "MT"
+    ],
+    "nps_url": "glac",
+    "region": "Mountain"
+  },
+  "rocky-mountain": {
+    "ch": "洛磯山",
+    "en": "Rocky Mountain",
+    "states": [
+      "CO"
+    ],
+    "nps_url": "romo",
+    "region": "Mountain"
+  },
+  "grand-teton": {
+    "ch": "大提頓",
+    "en": "Grand Teton",
+    "states": [
+      "WY"
+    ],
+    "nps_url": "grte",
+    "region": "Mountain"
+  },
+  "carlsbad-caverns": {
+    "ch": "卡爾斯巴德洞窟",
+    "en": "Carlsbad Caverns",
+    "states": [
+      "NM"
+    ],
+    "nps_url": "cave",
+    "region": "Mountain"
+  },
+  "big-bend": {
+    "ch": "大彎曲",
+    "en": "Big Bend",
+    "states": [
+      "TX"
+    ],
+    "nps_url": "bibe",
+    "region": "Mountain"
+  },
+  "guadalupe-mountains": {
+    "ch": "瓜達洛普山",
+    "en": "Guadalupe Mountains",
+    "states": [
+      "TX"
+    ],
+    "nps_url": "gumo",
+    "region": "Mountain"
+  },
+  "badlands": {
+    "ch": "惡地",
+    "en": "Badlands",
+    "states": [
+      "SD"
+    ],
+    "nps_url": "badl",
+    "region": "Mountain"
+  },
+  "theodore-roosevelt": {
+    "ch": "羅斯福",
+    "en": "Theodore Roosevelt",
+    "states": [
+      "ND"
+    ],
+    "nps_url": "thro",
+    "region": "Mountain"
+  },
+  "great-sand-dunes": {
+    "ch": "大沙丘",
+    "en": "Great Sand Dunes",
+    "states": [
+      "CO"
+    ],
+    "nps_url": "grsa",
+    "region": "Mountain"
+  },
+  "white-sands": {
+    "ch": "白沙",
+    "en": "White Sands",
+    "states": [
+      "NM"
+    ],
+    "nps_url": "whsa",
+    "region": "Mountain"
+  },
+  "mesa-verde": {
+    "ch": "梅薩維德",
+    "en": "Mesa Verde",
+    "states": [
+      "CO"
+    ],
+    "nps_url": "meve",
+    "region": "Southwest"
+  },
+  "grand-canyon": {
+    "ch": "大峽谷",
+    "en": "Grand Canyon",
+    "states": [
+      "AZ"
+    ],
+    "nps_url": "grca",
+    "region": "Southwest"
+  },
+  "zion": {
+    "ch": "錫安",
+    "en": "Zion",
+    "states": [
+      "UT"
+    ],
+    "nps_url": "zion",
+    "region": "Southwest"
+  },
+  "bryce-canyon": {
+    "ch": "布萊斯峽谷",
+    "en": "Bryce Canyon",
+    "states": [
+      "UT"
+    ],
+    "nps_url": "brca",
+    "region": "Southwest"
+  },
+  "petrified-forest": {
+    "ch": "石化林",
+    "en": "Petrified Forest",
+    "states": [
+      "AZ"
+    ],
+    "nps_url": "pefo",
+    "region": "Southwest"
+  },
+  "canyonlands": {
+    "ch": "峽谷地",
+    "en": "Canyonlands",
+    "states": [
+      "UT"
+    ],
+    "nps_url": "cany",
+    "region": "Southwest"
+  },
+  "arches": {
+    "ch": "拱門",
+    "en": "Arches",
+    "states": [
+      "UT"
+    ],
+    "nps_url": "arch",
+    "region": "Southwest"
+  },
+  "capitol-reef": {
+    "ch": "圓頂礁",
+    "en": "Capitol Reef",
+    "states": [
+      "UT"
+    ],
+    "nps_url": "care",
+    "region": "Southwest"
+  },
+  "great-basin": {
+    "ch": "大盆地",
+    "en": "Great Basin",
+    "states": [
+      "NV"
+    ],
+    "nps_url": "grba",
+    "region": "Southwest"
+  },
+  "saguaro": {
+    "ch": "巨人柱",
+    "en": "Saguaro",
+    "states": [
+      "AZ"
+    ],
+    "nps_url": "sagu",
+    "region": "Southwest"
+  },
+  "black-canyon-of-the-gunnison": {
+    "ch": "甘尼遜黑峽谷",
+    "en": "Black Canyon of the Gunnison",
+    "states": [
+      "CO"
+    ],
+    "nps_url": "blca",
+    "region": "Southwest"
+  },
+  "sequoia": {
+    "ch": "紅衫",
+    "en": "Sequoia",
+    "states": [
+      "CA"
+    ],
+    "nps_url": "seki",
+    "region": "West"
+  },
+  "yosemite": {
+    "ch": "優勝美地",
+    "en": "Yosemite",
+    "states": [
+      "CA"
+    ],
+    "nps_url": "yose",
+    "region": "West"
+  },
+  "mount-rainier": {
+    "ch": "雷尼爾山",
+    "en": "Mount Rainier",
+    "states": [
+      "WA"
+    ],
+    "nps_url": "mora",
+    "region": "West"
+  },
+  "crater-lake": {
+    "ch": "火山口湖",
+    "en": "Crater Lake",
+    "states": [
+      "OR"
+    ],
+    "nps_url": "crla",
+    "region": "West"
+  },
+  "lassen-volcanic": {
+    "ch": "拉森火山",
+    "en": "Lassen Volcanic",
+    "states": [
+      "CA"
+    ],
+    "nps_url": "lavo",
+    "region": "West"
+  },
+  "olympic": {
+    "ch": "奧林匹克",
+    "en": "Olympic",
+    "states": [
+      "WA"
+    ],
+    "nps_url": "olym",
+    "region": "West"
+  },
+  "kings-canyon": {
+    "ch": "國王峽谷",
+    "en": "Kings Canyon",
+    "states": [
+      "CA"
+    ],
+    "nps_url": "seki",
+    "region": "West"
+  },
+  "north-cascades": {
+    "ch": "北瀑布",
+    "en": "North Cascades",
+    "states": [
+      "WA"
+    ],
+    "nps_url": "noca",
+    "region": "West"
+  },
+  "redwood": {
+    "ch": "紅木",
+    "en": "Redwood",
+    "states": [
+      "CA"
+    ],
+    "nps_url": "redw",
+    "region": "West"
+  },
+  "channel-islands": {
+    "ch": "海峽群島",
+    "en": "Channel Islands",
+    "states": [
+      "CA"
+    ],
+    "nps_url": "chis",
+    "region": "West"
+  },
+  "death-valley": {
+    "ch": "死亡谷",
+    "en": "Death Valley",
+    "states": [
+      "CA",
+      "NV"
+    ],
+    "nps_url": "deva",
+    "region": "West"
+  },
+  "joshua-tree": {
+    "ch": "約書亞樹",
+    "en": "Joshua Tree",
+    "states": [
+      "CA"
+    ],
+    "nps_url": "jotr",
+    "region": "West"
+  },
+  "pinnacles": {
+    "ch": "尖頂",
+    "en": "Pinnacles",
+    "states": [
+      "CA"
+    ],
+    "nps_url": "pinn",
+    "region": "West"
+  },
+  "haleakala": {
+    "ch": "哈雷阿卡拉",
+    "en": "Haleakalā",
+    "states": [
+      "HI"
+    ],
+    "nps_url": "hale",
+    "region": "Pacific"
+  },
+  "hawaii-volcanoes": {
+    "ch": "夏威夷火山",
+    "en": "Hawai'i Volcanoes",
+    "states": [
+      "HI"
+    ],
+    "nps_url": "havo",
+    "region": "Pacific"
+  },
+  "denali": {
+    "ch": "迪納利",
+    "en": "Denali",
+    "states": [
+      "AK"
+    ],
+    "nps_url": "dena",
+    "region": "Pacific"
+  },
+  "gates-of-the-arctic": {
+    "ch": "北極門",
+    "en": "Gates of the Arctic",
+    "states": [
+      "AK"
+    ],
+    "nps_url": "gaar",
+    "region": "Pacific"
+  },
+  "glacier-bay": {
+    "ch": "冰河灣",
+    "en": "Glacier Bay",
+    "states": [
+      "AK"
+    ],
+    "nps_url": "glba",
+    "region": "Pacific"
+  },
+  "katmai": {
+    "ch": "卡特邁",
+    "en": "Katmai",
+    "states": [
+      "AK"
+    ],
+    "nps_url": "katm",
+    "region": "Pacific"
+  },
+  "kenai-fjords": {
+    "ch": "基奈峽灣",
+    "en": "Kenai Fjords",
+    "states": [
+      "AK"
+    ],
+    "nps_url": "kefj",
+    "region": "Pacific"
+  },
+  "kobuk-valley": {
+    "ch": "科伯克谷",
+    "en": "Kobuk Valley",
+    "states": [
+      "AK"
+    ],
+    "nps_url": "kova",
+    "region": "Pacific"
+  },
+  "lake-clark": {
+    "ch": "克拉克湖",
+    "en": "Lake Clark",
+    "states": [
+      "AK"
+    ],
+    "nps_url": "lacl",
+    "region": "Pacific"
+  },
+  "wrangell-st-elias": {
+    "ch": "弗蘭格爾-聖伊萊亞斯",
+    "en": "Wrangell-St. Elias",
+    "states": [
+      "AK"
+    ],
+    "nps_url": "wrst",
+    "region": "Pacific"
+  },
+  "american-samoa": {
+    "ch": "美屬薩摩亞",
+    "en": "American Samoa",
+    "states": [
+      "AS"
+    ],
+    "nps_url": "npsa",
+    "region": "Pacific"
+  }
+}
