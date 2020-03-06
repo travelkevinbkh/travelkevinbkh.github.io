@@ -6,7 +6,8 @@
       "ME"
     ],
     "nps_url": "acad",
-    "region": "East"
+    "region": "East",
+    "visited": false
   },
   "hot-strings": {
     "ch": "溫泉",
@@ -15,7 +16,8 @@
       "AR"
     ],
     "nps_url": "hosp",
-    "region": "East"
+    "region": "East",
+    "visited": false
   },
   "great-smoky-mountains": {
     "ch": "大煙山",
@@ -25,7 +27,8 @@
       "NC"
     ],
     "nps_url": "grsm",
-    "region": "East"
+    "region": "East",
+    "visited": false
   },
   "shenandoah": {
     "ch": "仙納度",
@@ -34,7 +37,8 @@
       "VA"
     ],
     "nps_url": "shen",
-    "region": "East"
+    "region": "East",
+    "visited": false
   },
   "isle-royale": {
     "ch": "皇家島",
@@ -43,7 +47,8 @@
       "MI"
     ],
     "nps_url": "isro",
-    "region": "East"
+    "region": "East",
+    "visited": false
   },
   "mammoth-cave": {
     "ch": "猛獁洞",
@@ -52,7 +57,8 @@
       "KY"
     ],
     "nps_url": "maca",
-    "region": "East"
+    "region": "East",
+    "visited": false
   },
   "everglade": {
     "ch": "大沼澤",
@@ -61,7 +67,8 @@
       "FL"
     ],
     "nps_url": "ever",
-    "region": "East"
+    "region": "East",
+    "visited": false
   },
   "virgin-islands": {
     "ch": "維京群島",
@@ -70,7 +77,8 @@
       "VI"
     ],
     "nps_url": "viis",
-    "region": "East"
+    "region": "East",
+    "visited": false
   },
   "voyageurs": {
     "ch": "探險家",
@@ -79,7 +87,8 @@
       "MN"
     ],
     "nps_url": "voya",
-    "region": "East"
+    "region": "East",
+    "visited": false
   },
   "biscayne": {
     "ch": "畢思肯",
@@ -88,7 +97,8 @@
       "FL"
     ],
     "nps_url": "bisc",
-    "region": "East"
+    "region": "East",
+    "visited": false
   },
   "dry-tortugas": {
     "ch": "干龜",
@@ -97,7 +107,8 @@
       "FL"
     ],
     "nps_url": "drto",
-    "region": "East"
+    "region": "East",
+    "visited": false
   },
   "cuyahoga-valley": {
     "ch": "庫雅荷加谷",
@@ -106,7 +117,8 @@
       "OH"
     ],
     "nps_url": "cuva",
-    "region": "East"
+    "region": "East",
+    "visited": false
   },
   "congaree": {
     "ch": "坎格瑞",
@@ -115,7 +127,8 @@
       "SC"
     ],
     "nps_url": "cong",
-    "region": "East"
+    "region": "East",
+    "visited": false
   },
   "indiana-dunes": {
     "ch": "印第安納沙丘",
@@ -124,7 +137,8 @@
       "IN"
     ],
     "nps_url": "indu",
-    "region": "East"
+    "region": "East",
+    "visited": false
   },
   "gateway-arch": {
     "ch": "聖路易斯拱門",
@@ -133,7 +147,8 @@
       "MO"
     ],
     "nps_url": "jeff",
-    "region": "East"
+    "region": "East",
+    "visited": false
   },
   "yellowstone": {
     "ch": "黃石",
@@ -144,7 +159,8 @@
       "ID"
     ],
     "nps_url": "yell",
-    "region": "Mountain"
+    "region": "Mountain",
+    "visited": false
   },
   "wind-cave": {
     "ch": "風穴",
@@ -153,7 +169,8 @@
       "SD"
     ],
     "nps_url": "wica",
-    "region": "Mountain"
+    "region": "Mountain",
+    "visited": false
   },
   "glacier": {
     "ch": "冰河",
@@ -162,7 +179,8 @@
       "MT"
     ],
     "nps_url": "glac",
-    "region": "Mountain"
+    "region": "Mountain",
+    "visited": true
   },
   "rocky-mountain": {
     "ch": "洛磯山",
@@ -171,7 +189,8 @@
       "CO"
     ],
     "nps_url": "romo",
-    "region": "Mountain"
+    "region": "Mountain",
+    "visited": false
   },
   "grand-teton": {
     "ch": "大提頓",
@@ -180,7 +199,8 @@
       "WY"
     ],
     "nps_url": "grte",
-    "region": "Mountain"
+    "region": "Mountain",
+    "visited": false
   },
   "carlsbad-caverns": {
     "ch": "卡爾斯巴德洞窟",
@@ -189,7 +209,8 @@
       "NM"
     ],
     "nps_url": "cave",
-    "region": "Mountain"
+    "region": "Mountain",
+    "visited": false
   },
   "big-bend": {
     "ch": "大彎曲",
@@ -198,7 +219,8 @@
       "TX"
     ],
     "nps_url": "bibe",
-    "region": "Mountain"
+    "region": "Mountain",
+    "visited": false
   },
   "guadalupe-mountains": {
     "ch": "瓜達洛普山",
@@ -207,7 +229,8 @@
       "TX"
     ],
     "nps_url": "gumo",
-    "region": "Mountain"
+    "region": "Mountain",
+    "visited": false
   },
   "badlands": {
     "ch": "惡地",
@@ -216,7 +239,8 @@
       "SD"
     ],
     "nps_url": "badl",
-    "region": "Mountain"
+    "region": "Mountain",
+    "visited": false
   },
   "theodore-roosevelt": {
     "ch": "羅斯福",
@@ -225,7 +249,8 @@
       "ND"
     ],
     "nps_url": "thro",
-    "region": "Mountain"
+    "region": "Mountain",
+    "visited": false
   },
   "great-sand-dunes": {
     "ch": "大沙丘",
@@ -234,7 +259,8 @@
       "CO"
     ],
     "nps_url": "grsa",
-    "region": "Mountain"
+    "region": "Mountain",
+    "visited": false
   },
   "white-sands": {
     "ch": "白沙",
@@ -243,7 +269,8 @@
       "NM"
     ],
     "nps_url": "whsa",
-    "region": "Mountain"
+    "region": "Mountain",
+    "visited": false
   },
   "mesa-verde": {
     "ch": "梅薩維德",
@@ -252,7 +279,8 @@
       "CO"
     ],
     "nps_url": "meve",
-    "region": "Southwest"
+    "region": "Southwest",
+    "visited": false
   },
   "grand-canyon": {
     "ch": "大峽谷",
@@ -261,7 +289,8 @@
       "AZ"
     ],
     "nps_url": "grca",
-    "region": "Southwest"
+    "region": "Southwest",
+    "visited": false
   },
   "zion": {
     "ch": "錫安",
@@ -270,7 +299,8 @@
       "UT"
     ],
     "nps_url": "zion",
-    "region": "Southwest"
+    "region": "Southwest",
+    "visited": false
   },
   "bryce-canyon": {
     "ch": "布萊斯峽谷",
@@ -279,7 +309,8 @@
       "UT"
     ],
     "nps_url": "brca",
-    "region": "Southwest"
+    "region": "Southwest",
+    "visited": true
   },
   "petrified-forest": {
     "ch": "石化林",
@@ -288,7 +319,8 @@
       "AZ"
     ],
     "nps_url": "pefo",
-    "region": "Southwest"
+    "region": "Southwest",
+    "visited": true
   },
   "canyonlands": {
     "ch": "峽谷地",
@@ -297,7 +329,8 @@
       "UT"
     ],
     "nps_url": "cany",
-    "region": "Southwest"
+    "region": "Southwest",
+    "visited": true
   },
   "arches": {
     "ch": "拱門",
@@ -306,7 +339,8 @@
       "UT"
     ],
     "nps_url": "arch",
-    "region": "Southwest"
+    "region": "Southwest",
+    "visited": true
   },
   "capitol-reef": {
     "ch": "圓頂礁",
@@ -315,7 +349,8 @@
       "UT"
     ],
     "nps_url": "care",
-    "region": "Southwest"
+    "region": "Southwest",
+    "visited": false
   },
   "great-basin": {
     "ch": "大盆地",
@@ -324,7 +359,8 @@
       "NV"
     ],
     "nps_url": "grba",
-    "region": "Southwest"
+    "region": "Southwest",
+    "visited": false
   },
   "saguaro": {
     "ch": "巨人柱",
@@ -333,7 +369,8 @@
       "AZ"
     ],
     "nps_url": "sagu",
-    "region": "Southwest"
+    "region": "Southwest",
+    "visited": true
   },
   "black-canyon-of-the-gunnison": {
     "ch": "甘尼遜黑峽谷",
@@ -342,7 +379,8 @@
       "CO"
     ],
     "nps_url": "blca",
-    "region": "Southwest"
+    "region": "Southwest",
+    "visited": false
   },
   "sequoia": {
     "ch": "紅衫",
@@ -351,7 +389,8 @@
       "CA"
     ],
     "nps_url": "seki",
-    "region": "West"
+    "region": "West",
+    "visited": false
   },
   "yosemite": {
     "ch": "優勝美地",
@@ -360,7 +399,8 @@
       "CA"
     ],
     "nps_url": "yose",
-    "region": "West"
+    "region": "West",
+    "visited": false
   },
   "mount-rainier": {
     "ch": "雷尼爾山",
@@ -369,7 +409,8 @@
       "WA"
     ],
     "nps_url": "mora",
-    "region": "West"
+    "region": "West",
+    "visited": false
   },
   "crater-lake": {
     "ch": "火山口湖",
@@ -378,7 +419,8 @@
       "OR"
     ],
     "nps_url": "crla",
-    "region": "West"
+    "region": "West",
+    "visited": false
   },
   "lassen-volcanic": {
     "ch": "拉森火山",
@@ -387,7 +429,8 @@
       "CA"
     ],
     "nps_url": "lavo",
-    "region": "West"
+    "region": "West",
+    "visited": false
   },
   "olympic": {
     "ch": "奧林匹克",
@@ -396,7 +439,8 @@
       "WA"
     ],
     "nps_url": "olym",
-    "region": "West"
+    "region": "West",
+    "visited": false
   },
   "kings-canyon": {
     "ch": "國王峽谷",
@@ -405,7 +449,8 @@
       "CA"
     ],
     "nps_url": "seki",
-    "region": "West"
+    "region": "West",
+    "visited": false
   },
   "north-cascades": {
     "ch": "北瀑布",
@@ -414,7 +459,8 @@
       "WA"
     ],
     "nps_url": "noca",
-    "region": "West"
+    "region": "West",
+    "visited": false
   },
   "redwood": {
     "ch": "紅木",
@@ -423,7 +469,8 @@
       "CA"
     ],
     "nps_url": "redw",
-    "region": "West"
+    "region": "West",
+    "visited": false
   },
   "channel-islands": {
     "ch": "海峽群島",
@@ -432,7 +479,8 @@
       "CA"
     ],
     "nps_url": "chis",
-    "region": "West"
+    "region": "West",
+    "visited": false
   },
   "death-valley": {
     "ch": "死亡谷",
@@ -442,7 +490,8 @@
       "NV"
     ],
     "nps_url": "deva",
-    "region": "West"
+    "region": "West",
+    "visited": true
   },
   "joshua-tree": {
     "ch": "約書亞樹",
@@ -451,7 +500,8 @@
       "CA"
     ],
     "nps_url": "jotr",
-    "region": "West"
+    "region": "West",
+    "visited": false
   },
   "pinnacles": {
     "ch": "尖頂",
@@ -460,7 +510,8 @@
       "CA"
     ],
     "nps_url": "pinn",
-    "region": "West"
+    "region": "West",
+    "visited": false
   },
   "haleakala": {
     "ch": "哈雷阿卡拉",
@@ -469,7 +520,8 @@
       "HI"
     ],
     "nps_url": "hale",
-    "region": "Pacific"
+    "region": "Pacific",
+    "visited": false
   },
   "hawaii-volcanoes": {
     "ch": "夏威夷火山",
@@ -478,7 +530,8 @@
       "HI"
     ],
     "nps_url": "havo",
-    "region": "Pacific"
+    "region": "Pacific",
+    "visited": false
   },
   "denali": {
     "ch": "迪納利",
@@ -487,7 +540,8 @@
       "AK"
     ],
     "nps_url": "dena",
-    "region": "Pacific"
+    "region": "Pacific",
+    "visited": false
   },
   "gates-of-the-arctic": {
     "ch": "北極門",
@@ -496,7 +550,8 @@
       "AK"
     ],
     "nps_url": "gaar",
-    "region": "Pacific"
+    "region": "Pacific",
+    "visited": false
   },
   "glacier-bay": {
     "ch": "冰河灣",
@@ -505,7 +560,8 @@
       "AK"
     ],
     "nps_url": "glba",
-    "region": "Pacific"
+    "region": "Pacific",
+    "visited": false
   },
   "katmai": {
     "ch": "卡特邁",
@@ -514,7 +570,8 @@
       "AK"
     ],
     "nps_url": "katm",
-    "region": "Pacific"
+    "region": "Pacific",
+    "visited": false
   },
   "kenai-fjords": {
     "ch": "基奈峽灣",
@@ -523,7 +580,8 @@
       "AK"
     ],
     "nps_url": "kefj",
-    "region": "Pacific"
+    "region": "Pacific",
+    "visited": false
   },
   "kobuk-valley": {
     "ch": "科伯克谷",
@@ -532,7 +590,8 @@
       "AK"
     ],
     "nps_url": "kova",
-    "region": "Pacific"
+    "region": "Pacific",
+    "visited": false
   },
   "lake-clark": {
     "ch": "克拉克湖",
@@ -541,7 +600,8 @@
       "AK"
     ],
     "nps_url": "lacl",
-    "region": "Pacific"
+    "region": "Pacific",
+    "visited": false
   },
   "wrangell-st-elias": {
     "ch": "弗蘭格爾-聖伊萊亞斯",
@@ -550,7 +610,8 @@
       "AK"
     ],
     "nps_url": "wrst",
-    "region": "Pacific"
+    "region": "Pacific",
+    "visited": false
   },
   "american-samoa": {
     "ch": "美屬薩摩亞",
@@ -559,6 +620,7 @@
       "AS"
     ],
     "nps_url": "npsa",
-    "region": "Pacific"
+    "region": "Pacific",
+    "visited": false
   }
 }

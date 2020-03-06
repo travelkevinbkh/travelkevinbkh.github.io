@@ -126,13 +126,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
 /* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
 /* harmony import */ var _navbar_navbar_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./navbar/navbar.component */ "./src/app/navbar/navbar.component.ts");
-/* harmony import */ var _menu_grid_menu_grid_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./menu-grid/menu-grid.component */ "./src/app/menu-grid/menu-grid.component.ts");
-/* harmony import */ var _menu_menu_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./menu/menu.component */ "./src/app/menu/menu.component.ts");
-/* harmony import */ var _np_main_np_main_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./np-main/np-main.component */ "./src/app/np-main/np-main.component.ts");
+/* harmony import */ var _np_np_grid_np_grid_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./np/np-grid/np-grid.component */ "./src/app/np/np-grid/np-grid.component.ts");
+/* harmony import */ var _np_np_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./np/np.component */ "./src/app/np/np.component.ts");
+/* harmony import */ var _np_np_main_np_main_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./np/np-main/np-main.component */ "./src/app/np/np-main/np-main.component.ts");
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
 /* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./home/home.component */ "./src/app/home/home.component.ts");
 /* harmony import */ var _not_found_not_found_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./not-found/not-found.component */ "./src/app/not-found/not-found.component.ts");
-/* harmony import */ var _menu_table_menu_table_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./menu-table/menu-table.component */ "./src/app/menu-table/menu-table.component.ts");
+/* harmony import */ var _np_np_table_np_table_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./np/np-table/np-table.component */ "./src/app/np/np-table/np-table.component.ts");
+/* harmony import */ var _np_np_content_np_content_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./np/np-content/np-content.component */ "./src/app/np/np-content/np-content.component.ts");
+
 
 
 
@@ -148,8 +150,8 @@ __webpack_require__.r(__webpack_exports__);
 
 var appRoutes = [
     { 'path': '', component: _home_home_component__WEBPACK_IMPORTED_MODULE_10__["HomeComponent"] },
-    { 'path': 'us-national-parks', component: _menu_menu_component__WEBPACK_IMPORTED_MODULE_7__["MenuComponent"] },
-    { 'path': 'us-national-parks/:name', component: _np_main_np_main_component__WEBPACK_IMPORTED_MODULE_8__["NpMainComponent"] },
+    { 'path': 'us-national-parks', component: _np_np_component__WEBPACK_IMPORTED_MODULE_7__["NpComponent"] },
+    { 'path': 'us-national-parks/:name', component: _np_np_main_np_main_component__WEBPACK_IMPORTED_MODULE_8__["NpMainComponent"] },
     { 'path': 'not-found', component: _not_found_not_found_component__WEBPACK_IMPORTED_MODULE_11__["NotFoundComponent"] },
     { 'path': '**', redirectTo: '/not-found' },
 ];
@@ -161,12 +163,13 @@ var AppModule = /** @class */ (function () {
             declarations: [
                 _app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"],
                 _navbar_navbar_component__WEBPACK_IMPORTED_MODULE_5__["NavbarComponent"],
-                _menu_grid_menu_grid_component__WEBPACK_IMPORTED_MODULE_6__["MenuGridComponent"],
-                _menu_menu_component__WEBPACK_IMPORTED_MODULE_7__["MenuComponent"],
-                _np_main_np_main_component__WEBPACK_IMPORTED_MODULE_8__["NpMainComponent"],
+                _np_np_grid_np_grid_component__WEBPACK_IMPORTED_MODULE_6__["NpGridComponent"],
+                _np_np_component__WEBPACK_IMPORTED_MODULE_7__["NpComponent"],
+                _np_np_main_np_main_component__WEBPACK_IMPORTED_MODULE_8__["NpMainComponent"],
                 _home_home_component__WEBPACK_IMPORTED_MODULE_10__["HomeComponent"],
                 _not_found_not_found_component__WEBPACK_IMPORTED_MODULE_11__["NotFoundComponent"],
-                _menu_table_menu_table_component__WEBPACK_IMPORTED_MODULE_12__["MenuTableComponent"]
+                _np_np_table_np_table_component__WEBPACK_IMPORTED_MODULE_12__["NpTableComponent"],
+                _np_np_content_np_content_component__WEBPACK_IMPORTED_MODULE_13__["NpContentComponent"]
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
@@ -234,347 +237,6 @@ var HomeComponent = /** @class */ (function () {
         tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
     ], HomeComponent);
     return HomeComponent;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/menu-grid/menu-grid.component.css":
-/*!***************************************************!*\
-  !*** ./src/app/menu-grid/menu-grid.component.css ***!
-  \***************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = ".btn {\n    margin-right: 5px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbWVudS1ncmlkL21lbnUtZ3JpZC5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksaUJBQWlCO0FBQ3JCIiwiZmlsZSI6InNyYy9hcHAvbWVudS1ncmlkL21lbnUtZ3JpZC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmJ0biB7XG4gICAgbWFyZ2luLXJpZ2h0OiA1cHg7XG59Il19 */"
-
-/***/ }),
-
-/***/ "./src/app/menu-grid/menu-grid.component.html":
-/*!****************************************************!*\
-  !*** ./src/app/menu-grid/menu-grid.component.html ***!
-  \****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<div class=\"card\" style=\"margin: 3px;\">\n    <img class=\"card-img-top\" src=\"https://media.istockphoto.com/vectors/vector-realistic-isolated-404-not-found-error-lettering-with-glitch-vector-id990584628\" alt=\"Card image cap\">\n    <div class=\"card-body\">\n        <h5>{{ park.getNameCh() }}</h5>\n        <h6>{{ park.getNameEn() }}</h6>\n        <p>{{ park.getStateShort() }}</p>\n        <a class=\"btn btn-success\"\n            role=\"button\"\n            [routerLink]=\"['/us-national-parks', park.getParkUrl()]\">\n            前往部落格\n        </a>\n        <a class=\"btn btn-primary\"\n            role=\"button\"\n            [href]=\"park.getNpsUrl()\"\n            target=\"_blank\">\n            前往官方網站\n        </a>\n    </div>\n</div>\n"
-
-/***/ }),
-
-/***/ "./src/app/menu-grid/menu-grid.component.ts":
-/*!**************************************************!*\
-  !*** ./src/app/menu-grid/menu-grid.component.ts ***!
-  \**************************************************/
-/*! exports provided: MenuGridComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MenuGridComponent", function() { return MenuGridComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _menu_menu_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../menu/menu.component */ "./src/app/menu/menu.component.ts");
-
-
-
-var MenuGridComponent = /** @class */ (function () {
-    function MenuGridComponent() {
-    }
-    MenuGridComponent.prototype.ngOnInit = function () {
-    };
-    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])(),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", _menu_menu_component__WEBPACK_IMPORTED_MODULE_2__["Park"])
-    ], MenuGridComponent.prototype, "park", void 0);
-    MenuGridComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-            selector: 'app-menu-grid',
-            template: __webpack_require__(/*! ./menu-grid.component.html */ "./src/app/menu-grid/menu-grid.component.html"),
-            styles: [__webpack_require__(/*! ./menu-grid.component.css */ "./src/app/menu-grid/menu-grid.component.css")]
-        }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
-    ], MenuGridComponent);
-    return MenuGridComponent;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/menu-table/menu-table.component.css":
-/*!*****************************************************!*\
-  !*** ./src/app/menu-table/menu-table.component.css ***!
-  \*****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL21lbnUtdGFibGUvbWVudS10YWJsZS5jb21wb25lbnQuY3NzIn0= */"
-
-/***/ }),
-
-/***/ "./src/app/menu-table/menu-table.component.html":
-/*!******************************************************!*\
-  !*** ./src/app/menu-table/menu-table.component.html ***!
-  \******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<table class=\"table table-striped\">\n  <thead>\n    <tr>\n      <th scope=\"col\">#</th>\n      <th scope=\"col\">中文名</th>\n      <th scope=\"col\">英文名</th>\n      <th scope=\"col\">所在地</th>\n      <th scope=\"col\">部落格</th>\n      <th scope=\"col\">國家公園官方網站</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr \n      *ngFor=\"let park of parkList.getParks(sort); let i = index\" \n      [routerLink]=\"['/us-national-parks', park.getParkUrl()]\">\n      <th scope=\"row\">{{ i + 1 }}</th>\n      <td>{{ park.getNameCh() }}</td>\n      <td>{{ park.getNameEn() }}</td>\n      <td>{{ park.getStateShort() }}</td>\n      <td>\n        <a class=\"btn btn-success\"\n          role=\"button\"\n          [routerLink]=\"['/us-national-parks', park.getParkUrl()]\">\n          前往部落格\n        </a>\n      </td>\n      <td>\n        <a class=\"btn btn-primary\"\n          role=\"button\"\n          [href]=\"park.getNpsUrl()\"\n          target=\"_blank\">\n          前往官方網站\n        </a>\n      </td>\n    </tr>\n  </tbody>\n</table>"
-
-/***/ }),
-
-/***/ "./src/app/menu-table/menu-table.component.ts":
-/*!****************************************************!*\
-  !*** ./src/app/menu-table/menu-table.component.ts ***!
-  \****************************************************/
-/*! exports provided: MenuTableComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MenuTableComponent", function() { return MenuTableComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _menu_menu_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../menu/menu.component */ "./src/app/menu/menu.component.ts");
-
-
-
-var MenuTableComponent = /** @class */ (function () {
-    function MenuTableComponent() {
-    }
-    MenuTableComponent.prototype.ngOnInit = function () {
-    };
-    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])(),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", _menu_menu_component__WEBPACK_IMPORTED_MODULE_2__["ParkList"])
-    ], MenuTableComponent.prototype, "parkList", void 0);
-    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])(),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", Number)
-    ], MenuTableComponent.prototype, "sort", void 0);
-    MenuTableComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-            selector: 'app-menu-table',
-            template: __webpack_require__(/*! ./menu-table.component.html */ "./src/app/menu-table/menu-table.component.html"),
-            styles: [__webpack_require__(/*! ./menu-table.component.css */ "./src/app/menu-table/menu-table.component.css")]
-        }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
-    ], MenuTableComponent);
-    return MenuTableComponent;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/menu/menu.component.css":
-/*!*****************************************!*\
-  !*** ./src/app/menu/menu.component.css ***!
-  \*****************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "button {\n    margin: 2px;\n}\n\n#menu-button {\n    display: flex;\n    margin-bottom: 10px;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbWVudS9tZW51LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxXQUFXO0FBQ2Y7O0FBRUE7SUFDSSxhQUFhO0lBQ2IsbUJBQW1CO0FBQ3ZCIiwiZmlsZSI6InNyYy9hcHAvbWVudS9tZW51LmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJidXR0b24ge1xuICAgIG1hcmdpbjogMnB4O1xufVxuXG4jbWVudS1idXR0b24ge1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgbWFyZ2luLWJvdHRvbTogMTBweDtcbn1cbiJdfQ== */"
-
-/***/ }),
-
-/***/ "./src/app/menu/menu.component.html":
-/*!******************************************!*\
-  !*** ./src/app/menu/menu.component.html ***!
-  \******************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<div class=\"container\">\n  <h2>總共有{{ parkList.getLength() }}個國家公園</h2>\n  <p>點選不同國家公園查看遊記與旅遊影片</p>\n  <div class=\"menu-button\">\n    <span>顯示方式：</span>\n    <button\n      type=\"button\"\n      class=\"btn btn-sm\"\n      [ngClass]=\"{\n        'btn-primary' : style == menuStyle.TABLE,\n        'btn-secondary' : style != menuStyle.TABLE\n      }\"\n      (click)=\"changeMenuStyle(menuStyle.TABLE)\"\n    >列表</button>\n    <button\n      type=\"button\"\n      class=\"btn btn-sm\"\n      [ngClass]=\"{\n        'btn-primary' : style == menuStyle.GRID,\n        'btn-secondary' : style != menuStyle.GRID\n      }\"\n      (click)=\"changeMenuStyle(menuStyle.GRID)\"\n    >格狀</button>\n  </div>\n  <div class=\"menu-button\">\n    <span>排序方式：</span>\n    <button\n      type=\"button\"\n      class=\"btn btn-sm\"\n      [ngClass]=\"{\n        'btn-primary' : sort == menuSort.DEFAULT,\n        'btn-secondary' : sort != menuSort.DEFAULT\n      }\"\n      (click)=\"changeMenuSort(menuSort.DEFAULT)\"\n    >預設</button>\n    <button\n      type=\"button\"\n      class=\"btn btn-sm\"\n      [ngClass]=\"{\n        'btn-primary' : sort == menuSort.STATE,\n        'btn-secondary' : sort != menuSort.STATE\n      }\"\n      (click)=\"changeMenuSort(menuSort.STATE)\"\n    >按照州</button>\n    <button\n      type=\"button\"\n      class=\"btn btn-sm\"\n      [ngClass]=\"{\n        'btn-primary' : sort == menuSort.NAME,\n        'btn-secondary' : sort != menuSort.NAME\n      }\"\n      (click)=\"changeMenuSort(menuSort.NAME)\"\n    >按照名</button>\n  </div>\n  <div *ngIf=\"style == menuStyle.GRID\" class=\"row\">\n    <app-menu-grid\n      *ngFor=\"let park of parkList.getParks(sort)\"\n      class=\"col-lg-4\"\n      [routerLink]=\"['/us-national-parks', park.getParkUrl()]\"\n      [park]=\"park\"\n    ></app-menu-grid>\n  </div>\n  <div *ngIf=\"style == menuStyle.TABLE\" class=\"row\">\n    <app-menu-table\n      [parkList]=\"parkList\"\n      [sort]=\"sort\"\n    ></app-menu-table>\n  </div>\n</div>\n"
-
-/***/ }),
-
-/***/ "./src/app/menu/menu.component.ts":
-/*!****************************************!*\
-  !*** ./src/app/menu/menu.component.ts ***!
-  \****************************************/
-/*! exports provided: MenuComponent, MenuStyle, MenuSort, Park, ParkList, States */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MenuComponent", function() { return MenuComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MenuStyle", function() { return MenuStyle; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MenuSort", function() { return MenuSort; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Park", function() { return Park; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ParkList", function() { return ParkList; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "States", function() { return States; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _assets_data_us_states_json__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../assets/data/us-states.json */ "./src/assets/data/us-states.json");
-var _assets_data_us_states_json__WEBPACK_IMPORTED_MODULE_2___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../assets/data/us-states.json */ "./src/assets/data/us-states.json", 1);
-/* harmony import */ var _assets_data_us_parks_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../assets/data/us-parks.json */ "./src/assets/data/us-parks.json");
-var _assets_data_us_parks_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../assets/data/us-parks.json */ "./src/assets/data/us-parks.json", 1);
-
-
-
-
-var MenuComponent = /** @class */ (function () {
-    function MenuComponent() {
-        this.parkList = new ParkList();
-        this.menuStyle = MenuStyle;
-        this.menuSort = MenuSort;
-    }
-    MenuComponent.prototype.ngOnInit = function () {
-        this.style = this.menuStyle.TABLE;
-        this.sort = this.menuSort.DEFAULT;
-    };
-    MenuComponent.prototype.changeMenuStyle = function (clickedStyle) {
-        if (clickedStyle == this.menuStyle.TABLE) {
-            this.style = this.menuStyle.TABLE;
-        }
-        else {
-            this.style = this.menuStyle.GRID;
-        }
-    };
-    MenuComponent.prototype.changeMenuSort = function (clickedSort) {
-        if (clickedSort == this.menuSort.DEFAULT) {
-            this.sort = this.menuSort.DEFAULT;
-        }
-        else if (clickedSort == this.menuSort.STATE) {
-            this.sort = this.menuSort.STATE;
-        }
-        else {
-            this.sort = this.menuSort.NAME;
-        }
-    };
-    MenuComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-            selector: 'app-menu',
-            template: __webpack_require__(/*! ./menu.component.html */ "./src/app/menu/menu.component.html"),
-            styles: [__webpack_require__(/*! ./menu.component.css */ "./src/app/menu/menu.component.css")]
-        }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
-    ], MenuComponent);
-    return MenuComponent;
-}());
-
-var MenuStyle;
-(function (MenuStyle) {
-    MenuStyle[MenuStyle["GRID"] = 0] = "GRID";
-    MenuStyle[MenuStyle["TABLE"] = 1] = "TABLE";
-})(MenuStyle || (MenuStyle = {}));
-var MenuSort;
-(function (MenuSort) {
-    MenuSort[MenuSort["DEFAULT"] = 0] = "DEFAULT";
-    MenuSort[MenuSort["NAME"] = 1] = "NAME";
-    MenuSort[MenuSort["STATE"] = 2] = "STATE";
-})(MenuSort || (MenuSort = {}));
-var Park = /** @class */ (function () {
-    function Park(parkUrl, ch, en, states, npsUrl, region) {
-        if (parkUrl === void 0) { parkUrl = ''; }
-        if (ch === void 0) { ch = ''; }
-        if (en === void 0) { en = ''; }
-        if (states === void 0) { states = []; }
-        if (npsUrl === void 0) { npsUrl = ''; }
-        if (region === void 0) { region = ''; }
-        this.parkUrl = parkUrl;
-        this.ch = ch;
-        this.en = en;
-        this.states = states;
-        this.npsUrl = npsUrl;
-        this.region = region;
-    }
-    Park.prototype.getParkUrl = function () {
-        return this.parkUrl;
-    };
-    Park.prototype.getNameShortCh = function () {
-        return this.ch;
-    };
-    Park.prototype.getNameCh = function () {
-        return this.ch + '國家公園';
-        ;
-    };
-    Park.prototype.getNameShortEn = function () {
-        return this.en;
-    };
-    Park.prototype.getNameEn = function () {
-        if (this.parkUrl == 'american-samoa') {
-            return ' National Park of ' + this.en;
-        }
-        else {
-            return this.en + ' National Park';
-        }
-    };
-    Park.prototype.getStateShort = function () {
-        return this.states;
-    };
-    Park.prototype.getStateCh = function () {
-        return [];
-    };
-    Park.prototype.getStateEn = function () {
-        return [];
-    };
-    Park.prototype.getNpsUrl = function () {
-        return "https://www.nps.gov/" + this.npsUrl + "/index.htm";
-    };
-    return Park;
-}());
-
-var ParkList = /** @class */ (function () {
-    function ParkList() {
-        this.usParks = new Map();
-        var parks = _assets_data_us_parks_json__WEBPACK_IMPORTED_MODULE_3__;
-        for (var park in parks) {
-            var parkDetails = new Park(park, parks[park]['ch'], parks[park]['en'], parks[park]['states'], parks[park]['nps_url'], parks[park]['region']);
-            this.usParks.set(park, parkDetails);
-        }
-    }
-    ParkList.prototype.getLength = function () {
-        return this.usParks.size;
-    };
-    ParkList.prototype.getPark = function (park) {
-        return this.usParks.get(park);
-    };
-    ParkList.prototype.getParks = function (sort) {
-        function byEnName(a, b) {
-            return a.getParkUrl() < b.getParkUrl() ? -1 : 1;
-        }
-        function byState(a, b) {
-            return a.getStateShort()[0] < b.getStateShort()[0] ? -1 : 1;
-        }
-        if (sort == MenuSort.DEFAULT) {
-            return Array.from(this.usParks.values());
-        }
-        else if (sort == MenuSort.STATE) {
-            return Array.from(this.usParks.values()).sort(byState);
-        }
-        else {
-            return Array.from(this.usParks.values()).sort(byEnName);
-        }
-    };
-    return ParkList;
-}());
-
-var States = /** @class */ (function () {
-    function States() {
-        this.usStates = new Map();
-        var states = _assets_data_us_states_json__WEBPACK_IMPORTED_MODULE_2__;
-        for (var state in states) {
-            var stateDetails = {
-                ch: states[state]['ch'],
-                en: states[state]['en']
-            };
-            this.usStates.set(state, stateDetails);
-        }
-    }
-    States.prototype.getNameCh = function (name) {
-        return this.usStates.get(name).ch;
-    };
-    States.prototype.getNameEn = function (name) {
-        return this.usStates.get(name).en;
-    };
-    States.prototype.getNameArray = function (names) {
-        var _this = this;
-        return names.map(function (state) { return [_this.getNameCh(state), _this.getNameEn(state)]; });
-    };
-    return States;
 }());
 
 
@@ -708,32 +370,149 @@ var NotFoundComponent = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./src/app/np-main/np-main.component.css":
-/*!***********************************************!*\
-  !*** ./src/app/np-main/np-main.component.css ***!
-  \***********************************************/
+/***/ "./src/app/np/np-content/np-content.component.css":
+/*!********************************************************!*\
+  !*** ./src/app/np/np-content/np-content.component.css ***!
+  \********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL25wLW1haW4vbnAtbWFpbi5jb21wb25lbnQuY3NzIn0= */"
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL25wL25wLWNvbnRlbnQvbnAtY29udGVudC5jb21wb25lbnQuY3NzIn0= */"
 
 /***/ }),
 
-/***/ "./src/app/np-main/np-main.component.html":
-/*!************************************************!*\
-  !*** ./src/app/np-main/np-main.component.html ***!
-  \************************************************/
+/***/ "./src/app/np/np-content/np-content.component.html":
+/*!*********************************************************!*\
+  !*** ./src/app/np/np-content/np-content.component.html ***!
+  \*********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container\">\n  <h2>{{ park.getNameCh() }}</h2>\n  <h4>{{ park.getNameEn() }}</h4>\n  <h2>所在地</h2>\n  <h5 *ngFor=\"let state of stateNames\">{{ state[0] }}州<span>{{ state[1] }}</span></h5>\n  <p>此頁面內容尚未完全，歡迎先參考官方網站</p>\n  <a class=\"btn btn-primary\" role=\"button\" [href]=\"park.getNpsUrl()\" target=\"_blank\">官方網站</a>\n</div>\n"
+module.exports = "<p>\n  np-content works!\n</p>\n"
 
 /***/ }),
 
-/***/ "./src/app/np-main/np-main.component.ts":
-/*!**********************************************!*\
-  !*** ./src/app/np-main/np-main.component.ts ***!
-  \**********************************************/
+/***/ "./src/app/np/np-content/np-content.component.ts":
+/*!*******************************************************!*\
+  !*** ./src/app/np/np-content/np-content.component.ts ***!
+  \*******************************************************/
+/*! exports provided: NpContentComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NpContentComponent", function() { return NpContentComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+
+
+var NpContentComponent = /** @class */ (function () {
+    function NpContentComponent() {
+    }
+    NpContentComponent.prototype.ngOnInit = function () {
+    };
+    NpContentComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'app-np-content',
+            template: __webpack_require__(/*! ./np-content.component.html */ "./src/app/np/np-content/np-content.component.html"),
+            styles: [__webpack_require__(/*! ./np-content.component.css */ "./src/app/np/np-content/np-content.component.css")]
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+    ], NpContentComponent);
+    return NpContentComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/np/np-grid/np-grid.component.css":
+/*!**************************************************!*\
+  !*** ./src/app/np/np-grid/np-grid.component.css ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ".btn {\n    margin-right: 5px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbnAvbnAtZ3JpZC9ucC1ncmlkLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxpQkFBaUI7QUFDckIiLCJmaWxlIjoic3JjL2FwcC9ucC9ucC1ncmlkL25wLWdyaWQuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5idG4ge1xuICAgIG1hcmdpbi1yaWdodDogNXB4O1xufSJdfQ== */"
+
+/***/ }),
+
+/***/ "./src/app/np/np-grid/np-grid.component.html":
+/*!***************************************************!*\
+  !*** ./src/app/np/np-grid/np-grid.component.html ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"card\" style=\"margin: 3px;\">\n    <img \n        class=\"card-img-top\"\n        [src]=\"park.getThumbnail()\"\n        alt=\"Card image cap\">\n    <div class=\"card-body\">\n        <h5>{{ park.getNameCh() }}</h5>\n        <h6>{{ park.getNameEn() }}</h6>\n        <p *ngFor=\"let state of park.getStateCh()\">\n            {{ state }}\n        </p>\n        <a class=\"btn btn-success\"\n            role=\"button\"\n            [routerLink]=\"['/us-national-parks', park.getParkUrl()]\">\n            前往部落格\n        </a>\n        <a class=\"btn btn-primary\"\n            role=\"button\"\n            [href]=\"park.getNpsUrl()\"\n            target=\"_blank\">\n            前往官方網站\n        </a>\n    </div>\n</div>\n"
+
+/***/ }),
+
+/***/ "./src/app/np/np-grid/np-grid.component.ts":
+/*!*************************************************!*\
+  !*** ./src/app/np/np-grid/np-grid.component.ts ***!
+  \*************************************************/
+/*! exports provided: NpGridComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NpGridComponent", function() { return NpGridComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _np_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../np.component */ "./src/app/np/np.component.ts");
+
+
+
+var NpGridComponent = /** @class */ (function () {
+    function NpGridComponent() {
+    }
+    NpGridComponent.prototype.ngOnInit = function () { };
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])(),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", _np_component__WEBPACK_IMPORTED_MODULE_2__["Park"])
+    ], NpGridComponent.prototype, "park", void 0);
+    NpGridComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'app-np-grid',
+            template: __webpack_require__(/*! ./np-grid.component.html */ "./src/app/np/np-grid/np-grid.component.html"),
+            styles: [__webpack_require__(/*! ./np-grid.component.css */ "./src/app/np/np-grid/np-grid.component.css")]
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+    ], NpGridComponent);
+    return NpGridComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/np/np-main/np-main.component.css":
+/*!**************************************************!*\
+  !*** ./src/app/np/np-main/np-main.component.css ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL25wL25wLW1haW4vbnAtbWFpbi5jb21wb25lbnQuY3NzIn0= */"
+
+/***/ }),
+
+/***/ "./src/app/np/np-main/np-main.component.html":
+/*!***************************************************!*\
+  !*** ./src/app/np/np-main/np-main.component.html ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"container\">\n  <h2>{{ park.getNameCh() }}</h2>\n  <h4>{{ park.getNameEn() }}</h4>\n  <h2>所在地</h2>\n  <h5 \n    *ngFor=\"let idx of park.getStateNumberArray()\">\n    {{ park.getStateCh()[idx] }}\n    <span>{{ park.getStateEn()[idx] }}</span>\n  </h5>\n  <div *ngIf=\"park.getVisited()\">\n    <app-np-content></app-np-content>\n  </div>\n  <div *ngIf=\"!park.getVisited()\">\n    <p>此頁面內容尚未完全，歡迎先參考官方網站</p>\n    <a class=\"btn btn-primary\" role=\"button\" [href]=\"park.getNpsUrl()\" target=\"_blank\">官方網站</a>\n  </div>\n</div>\n"
+
+/***/ }),
+
+/***/ "./src/app/np/np-main/np-main.component.ts":
+/*!*************************************************!*\
+  !*** ./src/app/np/np-main/np-main.component.ts ***!
+  \*************************************************/
 /*! exports provided: NpMainComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -743,7 +522,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
-/* harmony import */ var _menu_menu_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../menu/menu.component */ "./src/app/menu/menu.component.ts");
+/* harmony import */ var _np_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../np.component */ "./src/app/np/np.component.ts");
 
 
 
@@ -754,23 +533,331 @@ var NpMainComponent = /** @class */ (function () {
     }
     NpMainComponent.prototype.ngOnInit = function () {
         this.parkUrl = this.route.snapshot.params['name'];
-        var parkList = new _menu_menu_component__WEBPACK_IMPORTED_MODULE_3__["ParkList"]();
+        var parkList = new _np_component__WEBPACK_IMPORTED_MODULE_3__["ParkList"]();
         this.park = parkList.getPark(this.parkUrl);
-        var stateList = new _menu_menu_component__WEBPACK_IMPORTED_MODULE_3__["States"]();
-        var state = this.park.getStateShort();
-        this.stateNames = stateList.getNameArray(state);
     };
     NpMainComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
             selector: 'app-np-main',
-            template: __webpack_require__(/*! ./np-main.component.html */ "./src/app/np-main/np-main.component.html"),
-            styles: [__webpack_require__(/*! ./np-main.component.css */ "./src/app/np-main/np-main.component.css")]
+            template: __webpack_require__(/*! ./np-main.component.html */ "./src/app/np/np-main/np-main.component.html"),
+            styles: [__webpack_require__(/*! ./np-main.component.css */ "./src/app/np/np-main/np-main.component.css")]
         }),
         tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"]])
     ], NpMainComponent);
     return NpMainComponent;
 }());
 
+
+
+/***/ }),
+
+/***/ "./src/app/np/np-table/np-table.component.css":
+/*!****************************************************!*\
+  !*** ./src/app/np/np-table/np-table.component.css ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "img {\n    height: 60px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbnAvbnAtdGFibGUvbnAtdGFibGUuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLFlBQVk7QUFDaEIiLCJmaWxlIjoic3JjL2FwcC9ucC9ucC10YWJsZS9ucC10YWJsZS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiaW1nIHtcbiAgICBoZWlnaHQ6IDYwcHg7XG59Il19 */"
+
+/***/ }),
+
+/***/ "./src/app/np/np-table/np-table.component.html":
+/*!*****************************************************!*\
+  !*** ./src/app/np/np-table/np-table.component.html ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<table class=\"table table-striped\">\n  <thead>\n    <tr>\n      <th scope=\"col\">#</th>\n      <th scope=\"col\">名稱</th>\n      <th scope=\"col\">名稱</th>\n      <th scope=\"col\">所在地</th>\n      <th scope=\"col\">部落格</th>\n      <th scope=\"col\">國家公園官方網站</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr \n      *ngFor=\"let park of parkList.getParks(sort); let i = index\" \n      [routerLink]=\"['/us-national-parks', park.getParkUrl()]\">\n      <th scope=\"row\">{{ i + 1 }}</th>\n      <td>\n        <img\n          [src]=\"park.getThumbnail()\" \n          alt=\"Card image cap\">\n      </td>\n      <td>\n        <strong>{{ park.getNameCh() }}</strong>\n        <p>{{ park.getNameEn() }}</p>\n      </td>\n      <td>\n        <span *ngFor=\"let state of park.getStateCh()\">\n          {{ state }}\n        </span>\n      </td>\n      <td>\n        <a class=\"btn btn-success\"\n          role=\"button\"\n          [routerLink]=\"['/us-national-parks', park.getParkUrl()]\">\n          前往部落格\n        </a>\n      </td>\n      <td>\n        <a class=\"btn btn-primary\"\n          role=\"button\"\n          [href]=\"park.getNpsUrl()\"\n          target=\"_blank\">\n          前往官方網站\n        </a>\n      </td>\n    </tr>\n  </tbody>\n</table>"
+
+/***/ }),
+
+/***/ "./src/app/np/np-table/np-table.component.ts":
+/*!***************************************************!*\
+  !*** ./src/app/np/np-table/np-table.component.ts ***!
+  \***************************************************/
+/*! exports provided: NpTableComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NpTableComponent", function() { return NpTableComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _np_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../np.component */ "./src/app/np/np.component.ts");
+
+
+
+var NpTableComponent = /** @class */ (function () {
+    function NpTableComponent() {
+    }
+    NpTableComponent.prototype.ngOnInit = function () { };
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])(),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", _np_component__WEBPACK_IMPORTED_MODULE_2__["ParkList"])
+    ], NpTableComponent.prototype, "parkList", void 0);
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])(),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", Number)
+    ], NpTableComponent.prototype, "sort", void 0);
+    NpTableComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'app-np-table',
+            template: __webpack_require__(/*! ./np-table.component.html */ "./src/app/np/np-table/np-table.component.html"),
+            styles: [__webpack_require__(/*! ./np-table.component.css */ "./src/app/np/np-table/np-table.component.css")]
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+    ], NpTableComponent);
+    return NpTableComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/np/np.component.css":
+/*!*************************************!*\
+  !*** ./src/app/np/np.component.css ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "button {\n    margin: 2px;\n}\n\n#menu-button {\n    display: flex;\n    margin-bottom: 10px;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbnAvbnAuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLFdBQVc7QUFDZjs7QUFFQTtJQUNJLGFBQWE7SUFDYixtQkFBbUI7QUFDdkIiLCJmaWxlIjoic3JjL2FwcC9ucC9ucC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiYnV0dG9uIHtcbiAgICBtYXJnaW46IDJweDtcbn1cblxuI21lbnUtYnV0dG9uIHtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIG1hcmdpbi1ib3R0b206IDEwcHg7XG59XG4iXX0= */"
+
+/***/ }),
+
+/***/ "./src/app/np/np.component.html":
+/*!**************************************!*\
+  !*** ./src/app/np/np.component.html ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"container\">\n  <h2>總共有{{ parkList.getLength() }}個國家公園</h2>\n  <p>點選不同國家公園查看遊記與旅遊影片</p>\n  <div class=\"menu-button\">\n    <span>顯示方式：</span>\n    <button\n      type=\"button\"\n      class=\"btn btn-sm\"\n      [ngClass]=\"{\n        'btn-primary' : style == menuStyle.GRID,\n        'btn-secondary' : style != menuStyle.GRID\n      }\"\n      (click)=\"changeMenuStyle(menuStyle.GRID)\"\n    >格狀</button>\n    <button\n      type=\"button\"\n      class=\"btn btn-sm\"\n      [ngClass]=\"{\n        'btn-primary' : style == menuStyle.TABLE,\n        'btn-secondary' : style != menuStyle.TABLE\n      }\"\n      (click)=\"changeMenuStyle(menuStyle.TABLE)\"\n    >列表</button>\n  </div>\n  <div class=\"menu-button\">\n    <span>排序方式：</span>\n    <button\n      type=\"button\"\n      class=\"btn btn-sm\"\n      [ngClass]=\"{\n        'btn-primary' : sort == menuSort.VISITED,\n        'btn-secondary' : sort != menuSort.VISITED\n      }\"\n      (click)=\"changeMenuSort(menuSort.VISITED)\"\n    >已造訪</button>\n    <button\n      type=\"button\"\n      class=\"btn btn-sm\"\n      [ngClass]=\"{\n        'btn-primary' : sort == menuSort.STATE,\n        'btn-secondary' : sort != menuSort.STATE\n      }\"\n      (click)=\"changeMenuSort(menuSort.STATE)\"\n    >英文州名</button>\n    <button\n      type=\"button\"\n      class=\"btn btn-sm\"\n      [ngClass]=\"{\n        'btn-primary' : sort == menuSort.NAME,\n        'btn-secondary' : sort != menuSort.NAME\n      }\"\n      (click)=\"changeMenuSort(menuSort.NAME)\"\n    >英文公園名</button>\n  </div>\n  <div *ngIf=\"style == menuStyle.GRID\" class=\"row\">\n    <app-np-grid\n      *ngFor=\"let park of parkList.getParks(sort)\"\n      class=\"col-lg-4\"\n      [routerLink]=\"['/us-national-parks', park.getParkUrl()]\"\n      [park]=\"park\"\n    ></app-np-grid>\n  </div>\n  <div *ngIf=\"style == menuStyle.TABLE\" class=\"row\">\n    <app-np-table\n      [parkList]=\"parkList\"\n      [sort]=\"sort\"\n    ></app-np-table>\n  </div>\n</div>\n"
+
+/***/ }),
+
+/***/ "./src/app/np/np.component.ts":
+/*!************************************!*\
+  !*** ./src/app/np/np.component.ts ***!
+  \************************************/
+/*! exports provided: NpComponent, MenuStyle, MenuSort, Park, ParkList */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NpComponent", function() { return NpComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MenuStyle", function() { return MenuStyle; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MenuSort", function() { return MenuSort; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Park", function() { return Park; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ParkList", function() { return ParkList; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _assets_data_us_states_json__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../assets/data/us-states.json */ "./src/assets/data/us-states.json");
+var _assets_data_us_states_json__WEBPACK_IMPORTED_MODULE_2___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../assets/data/us-states.json */ "./src/assets/data/us-states.json", 1);
+/* harmony import */ var _assets_data_us_parks_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../assets/data/us-parks.json */ "./src/assets/data/us-parks.json");
+var _assets_data_us_parks_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../assets/data/us-parks.json */ "./src/assets/data/us-parks.json", 1);
+
+
+
+
+var NpComponent = /** @class */ (function () {
+    function NpComponent() {
+        this.parkList = new ParkList();
+        this.menuStyle = MenuStyle;
+        this.menuSort = MenuSort;
+    }
+    NpComponent.prototype.ngOnInit = function () {
+        this.style = this.menuStyle.GRID;
+        this.sort = this.menuSort.VISITED;
+    };
+    NpComponent.prototype.changeMenuStyle = function (clickedStyle) {
+        if (clickedStyle == this.menuStyle.TABLE) {
+            this.style = this.menuStyle.TABLE;
+        }
+        else {
+            this.style = this.menuStyle.GRID;
+        }
+    };
+    NpComponent.prototype.changeMenuSort = function (clickedSort) {
+        if (clickedSort == this.menuSort.VISITED) {
+            this.sort = this.menuSort.VISITED;
+        }
+        else if (clickedSort == this.menuSort.STATE) {
+            this.sort = this.menuSort.STATE;
+        }
+        else {
+            this.sort = this.menuSort.NAME;
+        }
+    };
+    NpComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'app-np',
+            template: __webpack_require__(/*! ./np.component.html */ "./src/app/np/np.component.html"),
+            styles: [__webpack_require__(/*! ./np.component.css */ "./src/app/np/np.component.css")]
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+    ], NpComponent);
+    return NpComponent;
+}());
+
+var MenuStyle;
+(function (MenuStyle) {
+    MenuStyle[MenuStyle["GRID"] = 0] = "GRID";
+    MenuStyle[MenuStyle["TABLE"] = 1] = "TABLE";
+})(MenuStyle || (MenuStyle = {}));
+var MenuSort;
+(function (MenuSort) {
+    MenuSort[MenuSort["VISITED"] = 0] = "VISITED";
+    MenuSort[MenuSort["NAME"] = 1] = "NAME";
+    MenuSort[MenuSort["STATE"] = 2] = "STATE";
+})(MenuSort || (MenuSort = {}));
+var Park = /** @class */ (function () {
+    function Park(parkUrl, ch, en, states, npsUrl, region, visited) {
+        if (parkUrl === void 0) { parkUrl = ''; }
+        if (ch === void 0) { ch = ''; }
+        if (en === void 0) { en = ''; }
+        if (states === void 0) { states = []; }
+        if (npsUrl === void 0) { npsUrl = ''; }
+        if (region === void 0) { region = ''; }
+        if (visited === void 0) { visited = false; }
+        this.parkUrl = parkUrl;
+        this.ch = ch;
+        this.en = en;
+        this.states = states;
+        this.npsUrl = npsUrl;
+        this.region = region;
+        this.visited = visited;
+        this.stateList = new States();
+    }
+    Park.prototype.getParkUrl = function () {
+        return this.parkUrl;
+    };
+    Park.prototype.getNameShortCh = function () {
+        return this.ch;
+    };
+    Park.prototype.getNameCh = function () {
+        return this.ch + '國家公園';
+        ;
+    };
+    Park.prototype.getNameShortEn = function () {
+        return this.en;
+    };
+    Park.prototype.getNameEn = function () {
+        if (this.parkUrl == 'american-samoa') {
+            return ' National Park of ' + this.en;
+        }
+        else {
+            return this.en + ' National Park';
+        }
+    };
+    Park.prototype.getStateNumberArray = function () {
+        return Array.from({ length: this.states.length }, function (v, i) { return i; });
+    };
+    Park.prototype.getStateAbbre = function () {
+        return this.states;
+    };
+    Park.prototype.getStateCh = function () {
+        var _this = this;
+        return this.states.map(function (state) {
+            if (state == 'VI' || state == 'AS') {
+                return _this.stateList.getNameCh(state);
+            }
+            else {
+                return _this.stateList.getNameCh(state) + '州';
+            }
+        });
+    };
+    Park.prototype.getStateEn = function () {
+        var _this = this;
+        return this.states.map(function (state) { return _this.stateList.getNameEn(state); });
+    };
+    Park.prototype.getNpsUrl = function () {
+        return "https://www.nps.gov/" + this.npsUrl + "/index.htm";
+    };
+    Park.prototype.getVisited = function () {
+        return this.visited;
+    };
+    Park.prototype.getThumbnail = function () {
+        if (this.visited) {
+            return "/assets/parks/" + this.parkUrl + "/thumbnail.jpg";
+        }
+        else {
+            return "https://media.istockphoto.com/vectors/vector-realistic-isolated-404-not-found-error-lettering-with-glitch-vector-id990584628";
+        }
+    };
+    return Park;
+}());
+
+var ParkList = /** @class */ (function () {
+    function ParkList() {
+        this.usParks = new Map();
+        var parks = _assets_data_us_parks_json__WEBPACK_IMPORTED_MODULE_3__;
+        for (var park in parks) {
+            var parkDetails = new Park(park, parks[park]['ch'], parks[park]['en'], parks[park]['states'], parks[park]['nps_url'], parks[park]['region'], parks[park]['visited']);
+            this.usParks.set(park, parkDetails);
+        }
+    }
+    ParkList.prototype.getLength = function () {
+        return this.usParks.size;
+    };
+    ParkList.prototype.getPark = function (park) {
+        return this.usParks.get(park);
+    };
+    ParkList.prototype.getParks = function (sort) {
+        function byVisited(a, b) {
+            if ((a.getVisited() && b.getVisited()) ||
+                (!a.getVisited() && !b.getVisited())) {
+                return a.getParkUrl() < b.getParkUrl() ? -1 : 1;
+            }
+            else {
+                return a.getVisited() ? -1 : 1;
+            }
+        }
+        function byEnName(a, b) {
+            return a.getParkUrl() < b.getParkUrl() ? -1 : 1;
+        }
+        function byState(a, b) {
+            return a.getStateAbbre()[0] < b.getStateAbbre()[0] ? -1 : 1;
+        }
+        if (sort == MenuSort.VISITED) {
+            return Array.from(this.usParks.values()).sort(byVisited);
+        }
+        else if (sort == MenuSort.STATE) {
+            return Array.from(this.usParks.values()).sort(byState);
+        }
+        else {
+            return Array.from(this.usParks.values()).sort(byEnName);
+        }
+    };
+    return ParkList;
+}());
+
+var States = /** @class */ (function () {
+    function States() {
+        this.usStates = new Map();
+        var states = _assets_data_us_states_json__WEBPACK_IMPORTED_MODULE_2__;
+        for (var state in states) {
+            var stateDetails = {
+                abbre: state,
+                ch: states[state]['ch'],
+                en: states[state]['en']
+            };
+            this.usStates.set(state, stateDetails);
+        }
+    }
+    States.prototype.getAbbre = function (name) {
+        return this.usStates.get(name).abbre;
+    };
+    States.prototype.getNameCh = function (name) {
+        return this.usStates.get(name).ch;
+    };
+    States.prototype.getNameEn = function (name) {
+        return this.usStates.get(name).en;
+    };
+    return States;
+}());
 
 
 /***/ }),
@@ -782,7 +869,7 @@ var NpMainComponent = /** @class */ (function () {
 /*! exports provided: acadia, hot-strings, great-smoky-mountains, shenandoah, isle-royale, mammoth-cave, everglade, virgin-islands, voyageurs, biscayne, dry-tortugas, cuyahoga-valley, congaree, indiana-dunes, gateway-arch, yellowstone, wind-cave, glacier, rocky-mountain, grand-teton, carlsbad-caverns, big-bend, guadalupe-mountains, badlands, theodore-roosevelt, great-sand-dunes, white-sands, mesa-verde, grand-canyon, zion, bryce-canyon, petrified-forest, canyonlands, arches, capitol-reef, great-basin, saguaro, black-canyon-of-the-gunnison, sequoia, yosemite, mount-rainier, crater-lake, lassen-volcanic, olympic, kings-canyon, north-cascades, redwood, channel-islands, death-valley, joshua-tree, pinnacles, haleakala, hawaii-volcanoes, denali, gates-of-the-arctic, glacier-bay, katmai, kenai-fjords, kobuk-valley, lake-clark, wrangell-st-elias, american-samoa, default */
 /***/ (function(module) {
 
-module.exports = {"acadia":{"ch":"阿卡迪亞","en":"Acadia","states":["ME"],"nps_url":"acad","region":"East"},"hot-strings":{"ch":"溫泉","en":"Hot Strings","states":["AR"],"nps_url":"hosp","region":"East"},"great-smoky-mountains":{"ch":"大煙山","en":"Great Smoky Mountains","states":["TN","NC"],"nps_url":"grsm","region":"East"},"shenandoah":{"ch":"仙納度","en":"Shenandoah","states":["VA"],"nps_url":"shen","region":"East"},"isle-royale":{"ch":"皇家島","en":"Isle Royale","states":["MI"],"nps_url":"isro","region":"East"},"mammoth-cave":{"ch":"猛獁洞","en":"Mammoth Cave","states":["KY"],"nps_url":"maca","region":"East"},"everglade":{"ch":"大沼澤","en":"Everglade","states":["FL"],"nps_url":"ever","region":"East"},"virgin-islands":{"ch":"維京群島","en":"Virgin Islands","states":["VI"],"nps_url":"viis","region":"East"},"voyageurs":{"ch":"探險家","en":"Voyageurs","states":["MN"],"nps_url":"voya","region":"East"},"biscayne":{"ch":"畢思肯","en":"Biscayne","states":["FL"],"nps_url":"bisc","region":"East"},"dry-tortugas":{"ch":"干龜","en":"Dry Tortugas","states":["FL"],"nps_url":"drto","region":"East"},"cuyahoga-valley":{"ch":"庫雅荷加谷","en":"Cuyahoga Valley","states":["OH"],"nps_url":"cuva","region":"East"},"congaree":{"ch":"坎格瑞","en":"Congaree","states":["SC"],"nps_url":"cong","region":"East"},"indiana-dunes":{"ch":"印第安納沙丘","en":"Indiana Dunes","states":["IN"],"nps_url":"indu","region":"East"},"gateway-arch":{"ch":"聖路易斯拱門","en":"Gateway Arch","states":["MO"],"nps_url":"jeff","region":"East"},"yellowstone":{"ch":"黃石","en":"Yellowstone","states":["WY","MT","ID"],"nps_url":"yell","region":"Mountain"},"wind-cave":{"ch":"風穴","en":"Wind Cave","states":["SD"],"nps_url":"wica","region":"Mountain"},"glacier":{"ch":"冰河","en":"Glacier","states":["MT"],"nps_url":"glac","region":"Mountain"},"rocky-mountain":{"ch":"洛磯山","en":"Rocky Mountain","states":["CO"],"nps_url":"romo","region":"Mountain"},"grand-teton":{"ch":"大提頓","en":"Grand Teton","states":["WY"],"nps_url":"grte","region":"Mountain"},"carlsbad-caverns":{"ch":"卡爾斯巴德洞窟","en":"Carlsbad Caverns","states":["NM"],"nps_url":"cave","region":"Mountain"},"big-bend":{"ch":"大彎曲","en":"Big Bend","states":["TX"],"nps_url":"bibe","region":"Mountain"},"guadalupe-mountains":{"ch":"瓜達洛普山","en":"Guadalupe Mountains","states":["TX"],"nps_url":"gumo","region":"Mountain"},"badlands":{"ch":"惡地","en":"Badlands","states":["SD"],"nps_url":"badl","region":"Mountain"},"theodore-roosevelt":{"ch":"羅斯福","en":"Theodore Roosevelt","states":["ND"],"nps_url":"thro","region":"Mountain"},"great-sand-dunes":{"ch":"大沙丘","en":"Great Sand Dunes","states":["CO"],"nps_url":"grsa","region":"Mountain"},"white-sands":{"ch":"白沙","en":"White Sands","states":["NM"],"nps_url":"whsa","region":"Mountain"},"mesa-verde":{"ch":"梅薩維德","en":"Mesa Verde","states":["CO"],"nps_url":"meve","region":"Southwest"},"grand-canyon":{"ch":"大峽谷","en":"Grand Canyon","states":["AZ"],"nps_url":"grca","region":"Southwest"},"zion":{"ch":"錫安","en":"Zion","states":["UT"],"nps_url":"zion","region":"Southwest"},"bryce-canyon":{"ch":"布萊斯峽谷","en":"Bryce Canyon","states":["UT"],"nps_url":"brca","region":"Southwest"},"petrified-forest":{"ch":"石化林","en":"Petrified Forest","states":["AZ"],"nps_url":"pefo","region":"Southwest"},"canyonlands":{"ch":"峽谷地","en":"Canyonlands","states":["UT"],"nps_url":"cany","region":"Southwest"},"arches":{"ch":"拱門","en":"Arches","states":["UT"],"nps_url":"arch","region":"Southwest"},"capitol-reef":{"ch":"圓頂礁","en":"Capitol Reef","states":["UT"],"nps_url":"care","region":"Southwest"},"great-basin":{"ch":"大盆地","en":"Great Basin","states":["NV"],"nps_url":"grba","region":"Southwest"},"saguaro":{"ch":"巨人柱","en":"Saguaro","states":["AZ"],"nps_url":"sagu","region":"Southwest"},"black-canyon-of-the-gunnison":{"ch":"甘尼遜黑峽谷","en":"Black Canyon of the Gunnison","states":["CO"],"nps_url":"blca","region":"Southwest"},"sequoia":{"ch":"紅衫","en":"Sequoia","states":["CA"],"nps_url":"seki","region":"West"},"yosemite":{"ch":"優勝美地","en":"Yosemite","states":["CA"],"nps_url":"yose","region":"West"},"mount-rainier":{"ch":"雷尼爾山","en":"Mount Rainier","states":["WA"],"nps_url":"mora","region":"West"},"crater-lake":{"ch":"火山口湖","en":"Crater Lake","states":["OR"],"nps_url":"crla","region":"West"},"lassen-volcanic":{"ch":"拉森火山","en":"Lassen Volcanic","states":["CA"],"nps_url":"lavo","region":"West"},"olympic":{"ch":"奧林匹克","en":"Olympic","states":["WA"],"nps_url":"olym","region":"West"},"kings-canyon":{"ch":"國王峽谷","en":"Kings Canyon","states":["CA"],"nps_url":"seki","region":"West"},"north-cascades":{"ch":"北瀑布","en":"North Cascades","states":["WA"],"nps_url":"noca","region":"West"},"redwood":{"ch":"紅木","en":"Redwood","states":["CA"],"nps_url":"redw","region":"West"},"channel-islands":{"ch":"海峽群島","en":"Channel Islands","states":["CA"],"nps_url":"chis","region":"West"},"death-valley":{"ch":"死亡谷","en":"Death Valley","states":["CA","NV"],"nps_url":"deva","region":"West"},"joshua-tree":{"ch":"約書亞樹","en":"Joshua Tree","states":["CA"],"nps_url":"jotr","region":"West"},"pinnacles":{"ch":"尖頂","en":"Pinnacles","states":["CA"],"nps_url":"pinn","region":"West"},"haleakala":{"ch":"哈雷阿卡拉","en":"Haleakalā","states":["HI"],"nps_url":"hale","region":"Pacific"},"hawaii-volcanoes":{"ch":"夏威夷火山","en":"Hawai'i Volcanoes","states":["HI"],"nps_url":"havo","region":"Pacific"},"denali":{"ch":"迪納利","en":"Denali","states":["AK"],"nps_url":"dena","region":"Pacific"},"gates-of-the-arctic":{"ch":"北極門","en":"Gates of the Arctic","states":["AK"],"nps_url":"gaar","region":"Pacific"},"glacier-bay":{"ch":"冰河灣","en":"Glacier Bay","states":["AK"],"nps_url":"glba","region":"Pacific"},"katmai":{"ch":"卡特邁","en":"Katmai","states":["AK"],"nps_url":"katm","region":"Pacific"},"kenai-fjords":{"ch":"基奈峽灣","en":"Kenai Fjords","states":["AK"],"nps_url":"kefj","region":"Pacific"},"kobuk-valley":{"ch":"科伯克谷","en":"Kobuk Valley","states":["AK"],"nps_url":"kova","region":"Pacific"},"lake-clark":{"ch":"克拉克湖","en":"Lake Clark","states":["AK"],"nps_url":"lacl","region":"Pacific"},"wrangell-st-elias":{"ch":"弗蘭格爾-聖伊萊亞斯","en":"Wrangell-St. Elias","states":["AK"],"nps_url":"wrst","region":"Pacific"},"american-samoa":{"ch":"美屬薩摩亞","en":"American Samoa","states":["AS"],"nps_url":"npsa","region":"Pacific"}};
+module.exports = {"acadia":{"ch":"阿卡迪亞","en":"Acadia","states":["ME"],"nps_url":"acad","region":"East","visited":false},"hot-strings":{"ch":"溫泉","en":"Hot Strings","states":["AR"],"nps_url":"hosp","region":"East","visited":false},"great-smoky-mountains":{"ch":"大煙山","en":"Great Smoky Mountains","states":["TN","NC"],"nps_url":"grsm","region":"East","visited":false},"shenandoah":{"ch":"仙納度","en":"Shenandoah","states":["VA"],"nps_url":"shen","region":"East","visited":false},"isle-royale":{"ch":"皇家島","en":"Isle Royale","states":["MI"],"nps_url":"isro","region":"East","visited":false},"mammoth-cave":{"ch":"猛獁洞","en":"Mammoth Cave","states":["KY"],"nps_url":"maca","region":"East","visited":false},"everglade":{"ch":"大沼澤","en":"Everglade","states":["FL"],"nps_url":"ever","region":"East","visited":false},"virgin-islands":{"ch":"維京群島","en":"Virgin Islands","states":["VI"],"nps_url":"viis","region":"East","visited":false},"voyageurs":{"ch":"探險家","en":"Voyageurs","states":["MN"],"nps_url":"voya","region":"East","visited":false},"biscayne":{"ch":"畢思肯","en":"Biscayne","states":["FL"],"nps_url":"bisc","region":"East","visited":false},"dry-tortugas":{"ch":"干龜","en":"Dry Tortugas","states":["FL"],"nps_url":"drto","region":"East","visited":false},"cuyahoga-valley":{"ch":"庫雅荷加谷","en":"Cuyahoga Valley","states":["OH"],"nps_url":"cuva","region":"East","visited":false},"congaree":{"ch":"坎格瑞","en":"Congaree","states":["SC"],"nps_url":"cong","region":"East","visited":false},"indiana-dunes":{"ch":"印第安納沙丘","en":"Indiana Dunes","states":["IN"],"nps_url":"indu","region":"East","visited":false},"gateway-arch":{"ch":"聖路易斯拱門","en":"Gateway Arch","states":["MO"],"nps_url":"jeff","region":"East","visited":false},"yellowstone":{"ch":"黃石","en":"Yellowstone","states":["WY","MT","ID"],"nps_url":"yell","region":"Mountain","visited":false},"wind-cave":{"ch":"風穴","en":"Wind Cave","states":["SD"],"nps_url":"wica","region":"Mountain","visited":false},"glacier":{"ch":"冰河","en":"Glacier","states":["MT"],"nps_url":"glac","region":"Mountain","visited":true},"rocky-mountain":{"ch":"洛磯山","en":"Rocky Mountain","states":["CO"],"nps_url":"romo","region":"Mountain","visited":false},"grand-teton":{"ch":"大提頓","en":"Grand Teton","states":["WY"],"nps_url":"grte","region":"Mountain","visited":false},"carlsbad-caverns":{"ch":"卡爾斯巴德洞窟","en":"Carlsbad Caverns","states":["NM"],"nps_url":"cave","region":"Mountain","visited":false},"big-bend":{"ch":"大彎曲","en":"Big Bend","states":["TX"],"nps_url":"bibe","region":"Mountain","visited":false},"guadalupe-mountains":{"ch":"瓜達洛普山","en":"Guadalupe Mountains","states":["TX"],"nps_url":"gumo","region":"Mountain","visited":false},"badlands":{"ch":"惡地","en":"Badlands","states":["SD"],"nps_url":"badl","region":"Mountain","visited":false},"theodore-roosevelt":{"ch":"羅斯福","en":"Theodore Roosevelt","states":["ND"],"nps_url":"thro","region":"Mountain","visited":false},"great-sand-dunes":{"ch":"大沙丘","en":"Great Sand Dunes","states":["CO"],"nps_url":"grsa","region":"Mountain","visited":false},"white-sands":{"ch":"白沙","en":"White Sands","states":["NM"],"nps_url":"whsa","region":"Mountain","visited":false},"mesa-verde":{"ch":"梅薩維德","en":"Mesa Verde","states":["CO"],"nps_url":"meve","region":"Southwest","visited":false},"grand-canyon":{"ch":"大峽谷","en":"Grand Canyon","states":["AZ"],"nps_url":"grca","region":"Southwest","visited":false},"zion":{"ch":"錫安","en":"Zion","states":["UT"],"nps_url":"zion","region":"Southwest","visited":false},"bryce-canyon":{"ch":"布萊斯峽谷","en":"Bryce Canyon","states":["UT"],"nps_url":"brca","region":"Southwest","visited":true},"petrified-forest":{"ch":"石化林","en":"Petrified Forest","states":["AZ"],"nps_url":"pefo","region":"Southwest","visited":true},"canyonlands":{"ch":"峽谷地","en":"Canyonlands","states":["UT"],"nps_url":"cany","region":"Southwest","visited":true},"arches":{"ch":"拱門","en":"Arches","states":["UT"],"nps_url":"arch","region":"Southwest","visited":true},"capitol-reef":{"ch":"圓頂礁","en":"Capitol Reef","states":["UT"],"nps_url":"care","region":"Southwest","visited":false},"great-basin":{"ch":"大盆地","en":"Great Basin","states":["NV"],"nps_url":"grba","region":"Southwest","visited":false},"saguaro":{"ch":"巨人柱","en":"Saguaro","states":["AZ"],"nps_url":"sagu","region":"Southwest","visited":true},"black-canyon-of-the-gunnison":{"ch":"甘尼遜黑峽谷","en":"Black Canyon of the Gunnison","states":["CO"],"nps_url":"blca","region":"Southwest","visited":false},"sequoia":{"ch":"紅衫","en":"Sequoia","states":["CA"],"nps_url":"seki","region":"West","visited":false},"yosemite":{"ch":"優勝美地","en":"Yosemite","states":["CA"],"nps_url":"yose","region":"West","visited":false},"mount-rainier":{"ch":"雷尼爾山","en":"Mount Rainier","states":["WA"],"nps_url":"mora","region":"West","visited":false},"crater-lake":{"ch":"火山口湖","en":"Crater Lake","states":["OR"],"nps_url":"crla","region":"West","visited":false},"lassen-volcanic":{"ch":"拉森火山","en":"Lassen Volcanic","states":["CA"],"nps_url":"lavo","region":"West","visited":false},"olympic":{"ch":"奧林匹克","en":"Olympic","states":["WA"],"nps_url":"olym","region":"West","visited":false},"kings-canyon":{"ch":"國王峽谷","en":"Kings Canyon","states":["CA"],"nps_url":"seki","region":"West","visited":false},"north-cascades":{"ch":"北瀑布","en":"North Cascades","states":["WA"],"nps_url":"noca","region":"West","visited":false},"redwood":{"ch":"紅木","en":"Redwood","states":["CA"],"nps_url":"redw","region":"West","visited":false},"channel-islands":{"ch":"海峽群島","en":"Channel Islands","states":["CA"],"nps_url":"chis","region":"West","visited":false},"death-valley":{"ch":"死亡谷","en":"Death Valley","states":["CA","NV"],"nps_url":"deva","region":"West","visited":true},"joshua-tree":{"ch":"約書亞樹","en":"Joshua Tree","states":["CA"],"nps_url":"jotr","region":"West","visited":false},"pinnacles":{"ch":"尖頂","en":"Pinnacles","states":["CA"],"nps_url":"pinn","region":"West","visited":false},"haleakala":{"ch":"哈雷阿卡拉","en":"Haleakalā","states":["HI"],"nps_url":"hale","region":"Pacific","visited":false},"hawaii-volcanoes":{"ch":"夏威夷火山","en":"Hawai'i Volcanoes","states":["HI"],"nps_url":"havo","region":"Pacific","visited":false},"denali":{"ch":"迪納利","en":"Denali","states":["AK"],"nps_url":"dena","region":"Pacific","visited":false},"gates-of-the-arctic":{"ch":"北極門","en":"Gates of the Arctic","states":["AK"],"nps_url":"gaar","region":"Pacific","visited":false},"glacier-bay":{"ch":"冰河灣","en":"Glacier Bay","states":["AK"],"nps_url":"glba","region":"Pacific","visited":false},"katmai":{"ch":"卡特邁","en":"Katmai","states":["AK"],"nps_url":"katm","region":"Pacific","visited":false},"kenai-fjords":{"ch":"基奈峽灣","en":"Kenai Fjords","states":["AK"],"nps_url":"kefj","region":"Pacific","visited":false},"kobuk-valley":{"ch":"科伯克谷","en":"Kobuk Valley","states":["AK"],"nps_url":"kova","region":"Pacific","visited":false},"lake-clark":{"ch":"克拉克湖","en":"Lake Clark","states":["AK"],"nps_url":"lacl","region":"Pacific","visited":false},"wrangell-st-elias":{"ch":"弗蘭格爾-聖伊萊亞斯","en":"Wrangell-St. Elias","states":["AK"],"nps_url":"wrst","region":"Pacific","visited":false},"american-samoa":{"ch":"美屬薩摩亞","en":"American Samoa","states":["AS"],"nps_url":"npsa","region":"Pacific","visited":false}};
 
 /***/ }),
 
