@@ -23,6 +23,62 @@ webpackEmptyAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
 
 /***/ }),
 
+/***/ "./src/app/about/about.component.css":
+/*!*******************************************!*\
+  !*** ./src/app/about/about.component.css ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "#photo {\n    width: 200px;\n    height: 200px;\n    background-image: url(/assets/img/travel-kevin-photo.jpg);\n    background-size: cover;\n    background-position: right center;\n    border-radius: 50%;\n}\n\n.padding-top {\n    padding-top: 80px;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYWJvdXQvYWJvdXQuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLFlBQVk7SUFDWixhQUFhO0lBQ2IseURBQXlEO0lBQ3pELHNCQUFzQjtJQUN0QixpQ0FBaUM7SUFDakMsa0JBQWtCO0FBQ3RCOztBQUVBO0lBQ0ksaUJBQWlCO0FBQ3JCIiwiZmlsZSI6InNyYy9hcHAvYWJvdXQvYWJvdXQuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIiNwaG90byB7XG4gICAgd2lkdGg6IDIwMHB4O1xuICAgIGhlaWdodDogMjAwcHg7XG4gICAgYmFja2dyb3VuZC1pbWFnZTogdXJsKC9hc3NldHMvaW1nL3RyYXZlbC1rZXZpbi1waG90by5qcGcpO1xuICAgIGJhY2tncm91bmQtc2l6ZTogY292ZXI7XG4gICAgYmFja2dyb3VuZC1wb3NpdGlvbjogcmlnaHQgY2VudGVyO1xuICAgIGJvcmRlci1yYWRpdXM6IDUwJTtcbn1cblxuLnBhZGRpbmctdG9wIHtcbiAgICBwYWRkaW5nLXRvcDogODBweDtcbn1cbiJdfQ== */"
+
+/***/ }),
+
+/***/ "./src/app/about/about.component.html":
+/*!********************************************!*\
+  !*** ./src/app/about/about.component.html ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"container padding-top\">\n  <h2>Travel Kevin BKH</h2>\n  <h4>旅遊凱文</h4>\n  <div id=\"photo\" class=\"col-md-5\"></div>\n</div>\n"
+
+/***/ }),
+
+/***/ "./src/app/about/about.component.ts":
+/*!******************************************!*\
+  !*** ./src/app/about/about.component.ts ***!
+  \******************************************/
+/*! exports provided: AboutComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AboutComponent", function() { return AboutComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+
+
+var AboutComponent = /** @class */ (function () {
+    function AboutComponent() {
+    }
+    AboutComponent.prototype.ngOnInit = function () {
+    };
+    AboutComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'app-about',
+            template: __webpack_require__(/*! ./about.component.html */ "./src/app/about/about.component.html"),
+            styles: [__webpack_require__(/*! ./about.component.css */ "./src/app/about/about.component.css")]
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+    ], AboutComponent);
+    return AboutComponent;
+}());
+
+
+
+/***/ }),
+
 /***/ "./src/app/app-routing.module.ts":
 /*!***************************************!*\
   !*** ./src/app/app-routing.module.ts ***!
@@ -74,7 +130,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<app-navbar></app-navbar>\n<div style=\"display:inline-block; height:100px; width:100%\">My Text Here</div>\n<router-outlet></router-outlet>\n"
+module.exports = "<app-navbar></app-navbar>\n<router-outlet></router-outlet>\n"
 
 /***/ }),
 
@@ -123,17 +179,23 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm5/platform-browser.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
-/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
-/* harmony import */ var _navbar_navbar_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./navbar/navbar.component */ "./src/app/navbar/navbar.component.ts");
-/* harmony import */ var _np_np_grid_np_grid_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./np/np-grid/np-grid.component */ "./src/app/np/np-grid/np-grid.component.ts");
-/* harmony import */ var _np_np_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./np/np.component */ "./src/app/np/np.component.ts");
-/* harmony import */ var _np_np_main_np_main_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./np/np-main/np-main.component */ "./src/app/np/np-main/np-main.component.ts");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
-/* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./home/home.component */ "./src/app/home/home.component.ts");
-/* harmony import */ var _not_found_not_found_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./not-found/not-found.component */ "./src/app/not-found/not-found.component.ts");
-/* harmony import */ var _np_np_table_np_table_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./np/np-table/np-table.component */ "./src/app/np/np-table/np-table.component.ts");
-/* harmony import */ var _np_np_content_np_content_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./np/np-content/np-content.component */ "./src/app/np/np-content/np-content.component.ts");
+/* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/platform-browser/animations */ "./node_modules/@angular/platform-browser/fesm5/animations.js");
+/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+/* harmony import */ var _navbar_navbar_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./navbar/navbar.component */ "./src/app/navbar/navbar.component.ts");
+/* harmony import */ var _np_np_grid_np_grid_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./np/np-grid/np-grid.component */ "./src/app/np/np-grid/np-grid.component.ts");
+/* harmony import */ var _np_np_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./np/np.component */ "./src/app/np/np.component.ts");
+/* harmony import */ var _np_np_main_np_main_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./np/np-main/np-main.component */ "./src/app/np/np-main/np-main.component.ts");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./home/home.component */ "./src/app/home/home.component.ts");
+/* harmony import */ var _not_found_not_found_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./not-found/not-found.component */ "./src/app/not-found/not-found.component.ts");
+/* harmony import */ var _np_np_table_np_table_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./np/np-table/np-table.component */ "./src/app/np/np-table/np-table.component.ts");
+/* harmony import */ var _np_np_content_np_content_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./np/np-content/np-content.component */ "./src/app/np/np-content/np-content.component.ts");
+/* harmony import */ var _about_about_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./about/about.component */ "./src/app/about/about.component.ts");
+/* harmony import */ var _pg_pg_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./pg/pg.component */ "./src/app/pg/pg.component.ts");
+
+
+
 
 
 
@@ -149,10 +211,12 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var appRoutes = [
-    { 'path': '', component: _home_home_component__WEBPACK_IMPORTED_MODULE_10__["HomeComponent"] },
-    { 'path': 'us-national-parks', component: _np_np_component__WEBPACK_IMPORTED_MODULE_7__["NpComponent"] },
-    { 'path': 'us-national-parks/:name', component: _np_np_main_np_main_component__WEBPACK_IMPORTED_MODULE_8__["NpMainComponent"] },
-    { 'path': 'not-found', component: _not_found_not_found_component__WEBPACK_IMPORTED_MODULE_11__["NotFoundComponent"] },
+    { 'path': '', component: _home_home_component__WEBPACK_IMPORTED_MODULE_11__["HomeComponent"] },
+    { 'path': 'us-national-parks', component: _np_np_component__WEBPACK_IMPORTED_MODULE_8__["NpComponent"] },
+    { 'path': 'us-national-parks/:name', component: _np_np_main_np_main_component__WEBPACK_IMPORTED_MODULE_9__["NpMainComponent"] },
+    { 'path': 'photography', component: _pg_pg_component__WEBPACK_IMPORTED_MODULE_16__["PgComponent"] },
+    { 'path': 'about', component: _about_about_component__WEBPACK_IMPORTED_MODULE_15__["AboutComponent"] },
+    { 'path': 'not-found', component: _not_found_not_found_component__WEBPACK_IMPORTED_MODULE_12__["NotFoundComponent"] },
     { 'path': '**', redirectTo: '/not-found' },
 ];
 var AppModule = /** @class */ (function () {
@@ -161,23 +225,26 @@ var AppModule = /** @class */ (function () {
     AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
             declarations: [
-                _app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"],
-                _navbar_navbar_component__WEBPACK_IMPORTED_MODULE_5__["NavbarComponent"],
-                _np_np_grid_np_grid_component__WEBPACK_IMPORTED_MODULE_6__["NpGridComponent"],
-                _np_np_component__WEBPACK_IMPORTED_MODULE_7__["NpComponent"],
-                _np_np_main_np_main_component__WEBPACK_IMPORTED_MODULE_8__["NpMainComponent"],
-                _home_home_component__WEBPACK_IMPORTED_MODULE_10__["HomeComponent"],
-                _not_found_not_found_component__WEBPACK_IMPORTED_MODULE_11__["NotFoundComponent"],
-                _np_np_table_np_table_component__WEBPACK_IMPORTED_MODULE_12__["NpTableComponent"],
-                _np_np_content_np_content_component__WEBPACK_IMPORTED_MODULE_13__["NpContentComponent"]
+                _app_component__WEBPACK_IMPORTED_MODULE_5__["AppComponent"],
+                _navbar_navbar_component__WEBPACK_IMPORTED_MODULE_6__["NavbarComponent"],
+                _np_np_grid_np_grid_component__WEBPACK_IMPORTED_MODULE_7__["NpGridComponent"],
+                _np_np_component__WEBPACK_IMPORTED_MODULE_8__["NpComponent"],
+                _np_np_main_np_main_component__WEBPACK_IMPORTED_MODULE_9__["NpMainComponent"],
+                _home_home_component__WEBPACK_IMPORTED_MODULE_11__["HomeComponent"],
+                _not_found_not_found_component__WEBPACK_IMPORTED_MODULE_12__["NotFoundComponent"],
+                _np_np_table_np_table_component__WEBPACK_IMPORTED_MODULE_13__["NpTableComponent"],
+                _np_np_content_np_content_component__WEBPACK_IMPORTED_MODULE_14__["NpContentComponent"],
+                _about_about_component__WEBPACK_IMPORTED_MODULE_15__["AboutComponent"],
+                _pg_pg_component__WEBPACK_IMPORTED_MODULE_16__["PgComponent"]
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
-                _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"],
-                _angular_router__WEBPACK_IMPORTED_MODULE_9__["RouterModule"].forRoot(appRoutes),
+                _app_routing_module__WEBPACK_IMPORTED_MODULE_4__["AppRoutingModule"],
+                _angular_router__WEBPACK_IMPORTED_MODULE_10__["RouterModule"].forRoot(appRoutes),
+                _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_3__["BrowserAnimationsModule"],
             ],
             providers: [],
-            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
+            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_5__["AppComponent"]]
         })
     ], AppModule);
     return AppModule;
@@ -194,7 +261,7 @@ var AppModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "#photo{\n    width: 200px;\n    height: 200px;\n    background-image: url(/assets/img/travel-kevin-photo.jpg);\n    background-size: cover;\n    background-position: right center;\n    border-radius: 50%;\n  }\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS9ob21lLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxZQUFZO0lBQ1osYUFBYTtJQUNiLHlEQUF5RDtJQUN6RCxzQkFBc0I7SUFDdEIsaUNBQWlDO0lBQ2pDLGtCQUFrQjtFQUNwQiIsImZpbGUiOiJzcmMvYXBwL2hvbWUvaG9tZS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiI3Bob3Rve1xuICAgIHdpZHRoOiAyMDBweDtcbiAgICBoZWlnaHQ6IDIwMHB4O1xuICAgIGJhY2tncm91bmQtaW1hZ2U6IHVybCgvYXNzZXRzL2ltZy90cmF2ZWwta2V2aW4tcGhvdG8uanBnKTtcbiAgICBiYWNrZ3JvdW5kLXNpemU6IGNvdmVyO1xuICAgIGJhY2tncm91bmQtcG9zaXRpb246IHJpZ2h0IGNlbnRlcjtcbiAgICBib3JkZXItcmFkaXVzOiA1MCU7XG4gIH0iXX0= */"
+module.exports = ".padding-top {\n    padding-top: 80px;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS9ob21lLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxpQkFBaUI7QUFDckIiLCJmaWxlIjoic3JjL2FwcC9ob21lL2hvbWUuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5wYWRkaW5nLXRvcCB7XG4gICAgcGFkZGluZy10b3A6IDgwcHg7XG59XG4iXX0= */"
 
 /***/ }),
 
@@ -205,7 +272,7 @@ module.exports = "#photo{\n    width: 200px;\n    height: 200px;\n    background
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container\">\n  <h4>歡迎來到旅遊凱文的家</h4>\n  <div id=\"photo\" class=\"col-md-5\"></div>\n  <p>現在什麼內容都還沒有，敬請包涵。你可以先查看美國國家公園的列表，我的目標是走訪每一個國家公園！</p>\n  <button class=\"btn btn-primary\" [routerLink]=\"['/us-national-parks']\">美國國家公園列表</button>\n</div>\n"
+module.exports = "<div class=\"container padding-top\">\n  <h4>歡迎來到旅遊凱文的家</h4>\n  <p>現在什麼內容都還沒有，敬請包涵。你可以先查看美國國家公園的列表，我的目標是走訪每一個國家公園！</p>\n  <button class=\"btn btn-primary\" [routerLink]=\"['/us-national-parks']\">美國國家公園列表</button>\n</div>\n"
 
 /***/ }),
 
@@ -285,16 +352,14 @@ var NavbarComponent = /** @class */ (function () {
         this.href = [
             '',
             'us-national-parks',
-            'journey',
-            'about',
-            'contact'
+            'photography',
+            'about'
         ];
         this.categories = [
             '首頁',
             '美國國家公園',
-            '旅遊紀錄',
-            '關於',
-            '聯繫方式'
+            '攝影',
+            '關於'
         ];
     }
     NavbarComponent.prototype.ngOnInit = function () {
@@ -321,7 +386,7 @@ var NavbarComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL25vdC1mb3VuZC9ub3QtZm91bmQuY29tcG9uZW50LmNzcyJ9 */"
+module.exports = ".padding-top {\n    padding-top: 80px;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbm90LWZvdW5kL25vdC1mb3VuZC5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksaUJBQWlCO0FBQ3JCIiwiZmlsZSI6InNyYy9hcHAvbm90LWZvdW5kL25vdC1mb3VuZC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnBhZGRpbmctdG9wIHtcbiAgICBwYWRkaW5nLXRvcDogODBweDtcbn1cbiJdfQ== */"
 
 /***/ }),
 
@@ -332,7 +397,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container\">\n  <h3>找不到你所輸入的網址，這個頁面我可能還沒時間撰寫內容，或你可能打錯網址囉！</h3>\n  <button class=\"btn btn-primary\" [routerLink]=\"['/']\">回到首頁</button>\n</div>\n"
+module.exports = "<div class=\"container padding-top\">\n  <h3>找不到你所輸入的網址，你可能打錯網址囉！</h3>\n  <button class=\"btn btn-primary\" [routerLink]=\"['/']\">前往首頁</button>\n</div>\n"
 
 /***/ }),
 
@@ -433,7 +498,7 @@ var NpContentComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".btn {\n    margin-right: 5px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbnAvbnAtZ3JpZC9ucC1ncmlkLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxpQkFBaUI7QUFDckIiLCJmaWxlIjoic3JjL2FwcC9ucC9ucC1ncmlkL25wLWdyaWQuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5idG4ge1xuICAgIG1hcmdpbi1yaWdodDogNXB4O1xufSJdfQ== */"
+module.exports = ".btn {\n    margin-right: 5px;\n}\n\n.upper-btn {\n    position: absolute;\n    top: 20%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n}\n\n.lower-btn {\n    position: absolute;\n    top: 45%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n}\n\n.btn-hollow {\n\tborder: 3px solid #fff;\n\tcolor: #fff;\n}\n\n.btn-hollow:hover,\n.btn-hollow:active {\n\tcolor: #fff;\n\tbackground: #5b5656;\n}\n\n.img-zoom {\n    overflow: hidden;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbnAvbnAtZ3JpZC9ucC1ncmlkLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxpQkFBaUI7QUFDckI7O0FBRUE7SUFDSSxrQkFBa0I7SUFDbEIsUUFBUTtJQUNSLFNBQVM7SUFDVCxnQ0FBZ0M7QUFDcEM7O0FBRUE7SUFDSSxrQkFBa0I7SUFDbEIsUUFBUTtJQUNSLFNBQVM7SUFDVCxnQ0FBZ0M7QUFDcEM7O0FBRUE7Q0FDQyxzQkFBc0I7Q0FDdEIsV0FBVztBQUNaOztBQUNBOztDQUVDLFdBQVc7Q0FDWCxtQkFBbUI7QUFDcEI7O0FBRUE7SUFDSSxnQkFBZ0I7QUFDcEIiLCJmaWxlIjoic3JjL2FwcC9ucC9ucC1ncmlkL25wLWdyaWQuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5idG4ge1xuICAgIG1hcmdpbi1yaWdodDogNXB4O1xufVxuXG4udXBwZXItYnRuIHtcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgdG9wOiAyMCU7XG4gICAgbGVmdDogNTAlO1xuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlKC01MCUsIC01MCUpO1xufVxuXG4ubG93ZXItYnRuIHtcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgdG9wOiA0NSU7XG4gICAgbGVmdDogNTAlO1xuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlKC01MCUsIC01MCUpO1xufVxuXG4uYnRuLWhvbGxvdyB7XG5cdGJvcmRlcjogM3B4IHNvbGlkICNmZmY7XG5cdGNvbG9yOiAjZmZmO1xufVxuLmJ0bi1ob2xsb3c6aG92ZXIsXG4uYnRuLWhvbGxvdzphY3RpdmUge1xuXHRjb2xvcjogI2ZmZjtcblx0YmFja2dyb3VuZDogIzViNTY1Njtcbn1cblxuLmltZy16b29tIHtcbiAgICBvdmVyZmxvdzogaGlkZGVuO1xufVxuIl19 */"
 
 /***/ }),
 
@@ -444,7 +509,7 @@ module.exports = ".btn {\n    margin-right: 5px;\n}\n/*# sourceMappingURL=data:a
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"card\" style=\"margin: 3px;\">\n    <img \n        class=\"card-img-top\"\n        [src]=\"park.getThumbnail()\"\n        alt=\"Card image cap\">\n    <div class=\"card-body\">\n        <h5>{{ park.getNameCh() }}</h5>\n        <h6>{{ park.getNameEn() }}</h6>\n        <p *ngFor=\"let state of park.getStateCh()\">\n            {{ state }}\n        </p>\n        <a class=\"btn btn-success\"\n            role=\"button\"\n            [routerLink]=\"['/us-national-parks', park.getParkUrl()]\">\n            前往部落格\n        </a>\n        <a class=\"btn btn-primary\"\n            role=\"button\"\n            [href]=\"park.getNpsUrl()\"\n            target=\"_blank\">\n            前往官方網站\n        </a>\n    </div>\n</div>\n"
+module.exports = "<div class=\"card border-0\" style=\"margin: 3px;\">\n    <div \n        class=\"img-zoom shadow\"\n        (mouseenter) =\"mouseEnter()\"\n        (mouseleave) =\"mouseLeave()\">\n        <img\n            class=\"card-img-top\"\n            [src]=\"park.getThumbnail()\"\n            [@dimZoom]=\"imgState\"\n            alt=\"Card image cap\">\n        <a class=\"btn upper-btn btn-hollow\"\n            role=\"button\"\n            [@shown]=\"btnState\"\n            [routerLink]=\"['/us-national-parks', park.getParkUrl()]\">\n            前往部落格\n        </a>\n        <a class=\"btn lower-btn btn-hollow\"\n            role=\"button\"\n            [@shown]=\"btnState\"\n            [href]=\"park.getNpsUrl()\"\n            target=\"_blank\">\n            前往官方網站\n        </a>\n    </div>\n    <div class=\"card-body\">\n        <h5>{{ park.getNameCh() }}</h5>\n        <h6>{{ park.getNameEn() }}</h6>\n    </div>\n</div>\n"
 
 /***/ }),
 
@@ -461,13 +526,26 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _np_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../np.component */ "./src/app/np/np.component.ts");
+/* harmony import */ var _angular_animations__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/animations */ "./node_modules/@angular/animations/fesm5/animations.js");
+
 
 
 
 var NpGridComponent = /** @class */ (function () {
     function NpGridComponent() {
     }
-    NpGridComponent.prototype.ngOnInit = function () { };
+    NpGridComponent.prototype.ngOnInit = function () {
+        this.imgState = 'normal';
+        this.btnState = 'normal';
+    };
+    NpGridComponent.prototype.mouseEnter = function () {
+        this.imgState = 'zoomed';
+        this.btnState = 'zoomed';
+    };
+    NpGridComponent.prototype.mouseLeave = function () {
+        this.imgState = 'normal';
+        this.btnState = 'normal';
+    };
     tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])(),
         tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", _np_component__WEBPACK_IMPORTED_MODULE_2__["Park"])
@@ -476,6 +554,28 @@ var NpGridComponent = /** @class */ (function () {
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
             selector: 'app-np-grid',
             template: __webpack_require__(/*! ./np-grid.component.html */ "./src/app/np/np-grid/np-grid.component.html"),
+            animations: [
+                Object(_angular_animations__WEBPACK_IMPORTED_MODULE_3__["trigger"])('dimZoom', [
+                    Object(_angular_animations__WEBPACK_IMPORTED_MODULE_3__["state"])('normal', Object(_angular_animations__WEBPACK_IMPORTED_MODULE_3__["style"])({
+                        transform: 'scale(1)',
+                        filter: 'brightness(100%)'
+                    })),
+                    Object(_angular_animations__WEBPACK_IMPORTED_MODULE_3__["state"])('zoomed', Object(_angular_animations__WEBPACK_IMPORTED_MODULE_3__["style"])({
+                        transform: 'scale(1.2)',
+                        filter: 'brightness(50%)'
+                    })),
+                    Object(_angular_animations__WEBPACK_IMPORTED_MODULE_3__["transition"])('normal <=> zoomed', Object(_angular_animations__WEBPACK_IMPORTED_MODULE_3__["animate"])(250))
+                ]),
+                Object(_angular_animations__WEBPACK_IMPORTED_MODULE_3__["trigger"])('shown', [
+                    Object(_angular_animations__WEBPACK_IMPORTED_MODULE_3__["state"])('normal', Object(_angular_animations__WEBPACK_IMPORTED_MODULE_3__["style"])({
+                        opacity: 0
+                    })),
+                    Object(_angular_animations__WEBPACK_IMPORTED_MODULE_3__["state"])('zoomed', Object(_angular_animations__WEBPACK_IMPORTED_MODULE_3__["style"])({
+                        opacity: 1
+                    })),
+                    Object(_angular_animations__WEBPACK_IMPORTED_MODULE_3__["transition"])('normal <=> zoomed', Object(_angular_animations__WEBPACK_IMPORTED_MODULE_3__["animate"])(250))
+                ])
+            ],
             styles: [__webpack_require__(/*! ./np-grid.component.css */ "./src/app/np/np-grid/np-grid.component.css")]
         }),
         tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
@@ -494,7 +594,7 @@ var NpGridComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL25wL25wLW1haW4vbnAtbWFpbi5jb21wb25lbnQuY3NzIn0= */"
+module.exports = ".padding-top {\n    padding-top: 80px;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbnAvbnAtbWFpbi9ucC1tYWluLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxpQkFBaUI7QUFDckIiLCJmaWxlIjoic3JjL2FwcC9ucC9ucC1tYWluL25wLW1haW4uY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5wYWRkaW5nLXRvcCB7XG4gICAgcGFkZGluZy10b3A6IDgwcHg7XG59XG4iXX0= */"
 
 /***/ }),
 
@@ -505,7 +605,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container\">\n  <h2>{{ park.getNameCh() }}</h2>\n  <h4>{{ park.getNameEn() }}</h4>\n  <h2>所在地</h2>\n  <h5 \n    *ngFor=\"let idx of park.getStateNumberArray()\">\n    {{ park.getStateCh()[idx] }}\n    <span>{{ park.getStateEn()[idx] }}</span>\n  </h5>\n  <div *ngIf=\"park.getVisited()\">\n    <app-np-content></app-np-content>\n  </div>\n  <div *ngIf=\"!park.getVisited()\">\n    <p>此頁面內容尚未完全，歡迎先參考官方網站</p>\n    <a class=\"btn btn-primary\" role=\"button\" [href]=\"park.getNpsUrl()\" target=\"_blank\">官方網站</a>\n  </div>\n</div>\n"
+module.exports = "<div class=\"container padding-top\">\n  <h2>{{ park.getNameCh() }}</h2>\n  <h4>{{ park.getNameEn() }}</h4>\n  <h2>所在地</h2>\n  <h5 \n    *ngFor=\"let idx of park.getStateNumberArray()\">\n    {{ park.getStateCh()[idx] }}\n    <span>{{ park.getStateEn()[idx] }}</span>\n  </h5>\n  <div *ngIf=\"park.getVisited()\">\n    <app-np-content></app-np-content>\n  </div>\n  <div *ngIf=\"!park.getVisited()\">\n    <p>此頁面內容尚未完全，歡迎先參考官方網站</p>\n    <a class=\"btn btn-primary\" role=\"button\" [href]=\"park.getNpsUrl()\" target=\"_blank\">官方網站</a>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -558,7 +658,7 @@ var NpMainComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "img {\n    height: 60px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbnAvbnAtdGFibGUvbnAtdGFibGUuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLFlBQVk7QUFDaEIiLCJmaWxlIjoic3JjL2FwcC9ucC9ucC10YWJsZS9ucC10YWJsZS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiaW1nIHtcbiAgICBoZWlnaHQ6IDYwcHg7XG59Il19 */"
+module.exports = "img {\n    height: 60px;\n}\n\n.btn-hollow {\n\tborder: 3px solid #5588a3;\n\tcolor: #5588a3;\n}\n\n.btn-hollow:hover,\n.btn-hollow:active {\n\tcolor: #5588a3;\n\tbackground: #e8e8e8;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbnAvbnAtdGFibGUvbnAtdGFibGUuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLFlBQVk7QUFDaEI7O0FBRUE7Q0FDQyx5QkFBeUI7Q0FDekIsY0FBYztBQUNmOztBQUNBOztDQUVDLGNBQWM7Q0FDZCxtQkFBbUI7QUFDcEIiLCJmaWxlIjoic3JjL2FwcC9ucC9ucC10YWJsZS9ucC10YWJsZS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiaW1nIHtcbiAgICBoZWlnaHQ6IDYwcHg7XG59XG5cbi5idG4taG9sbG93IHtcblx0Ym9yZGVyOiAzcHggc29saWQgIzU1ODhhMztcblx0Y29sb3I6ICM1NTg4YTM7XG59XG4uYnRuLWhvbGxvdzpob3Zlcixcbi5idG4taG9sbG93OmFjdGl2ZSB7XG5cdGNvbG9yOiAjNTU4OGEzO1xuXHRiYWNrZ3JvdW5kOiAjZThlOGU4O1xufVxuIl19 */"
 
 /***/ }),
 
@@ -569,7 +669,7 @@ module.exports = "img {\n    height: 60px;\n}\n/*# sourceMappingURL=data:applica
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<table class=\"table table-striped\">\n  <thead>\n    <tr>\n      <th scope=\"col\">#</th>\n      <th scope=\"col\">名稱</th>\n      <th scope=\"col\">名稱</th>\n      <th scope=\"col\">所在地</th>\n      <th scope=\"col\">部落格</th>\n      <th scope=\"col\">國家公園官方網站</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr \n      *ngFor=\"let park of parkList.getParks(sort); let i = index\" \n      [routerLink]=\"['/us-national-parks', park.getParkUrl()]\">\n      <th scope=\"row\">{{ i + 1 }}</th>\n      <td>\n        <img\n          [src]=\"park.getThumbnail()\" \n          alt=\"Card image cap\">\n      </td>\n      <td>\n        <strong>{{ park.getNameCh() }}</strong>\n        <p>{{ park.getNameEn() }}</p>\n      </td>\n      <td>\n        <span *ngFor=\"let state of park.getStateCh()\">\n          {{ state }}\n        </span>\n      </td>\n      <td>\n        <a class=\"btn btn-success\"\n          role=\"button\"\n          [routerLink]=\"['/us-national-parks', park.getParkUrl()]\">\n          前往部落格\n        </a>\n      </td>\n      <td>\n        <a class=\"btn btn-primary\"\n          role=\"button\"\n          [href]=\"park.getNpsUrl()\"\n          target=\"_blank\">\n          前往官方網站\n        </a>\n      </td>\n    </tr>\n  </tbody>\n</table>"
+module.exports = "<table class=\"table table-striped\">\n  <thead>\n    <tr>\n      <th scope=\"col\">#</th>\n      <th scope=\"col\"></th>\n      <th scope=\"col\"></th>\n      <th scope=\"col\"></th>\n      <th scope=\"col\"></th>\n      <th scope=\"col\"></th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr \n      *ngFor=\"let park of parkList.getParks(sort); let i = index\" \n      [routerLink]=\"['/us-national-parks', park.getParkUrl()]\">\n      <th scope=\"row\">{{ i + 1 }}</th>\n      <td>\n        <img\n          [src]=\"park.getThumbnail()\"\n          alt=\"Card image cap\">\n      </td>\n      <td>\n        <strong>{{ park.getNameCh() }}</strong>\n        <p>{{ park.getNameEn() }}</p>\n      </td>\n      <td>\n        <span *ngFor=\"let state of park.getStateCh()\">\n          {{ state }}\n        </span>\n      </td>\n      <td>\n        <a class=\"btn btn-hollow\"\n          role=\"button\"\n          [routerLink]=\"['/us-national-parks', park.getParkUrl()]\">\n          前往部落格\n        </a>\n      </td>\n      <td>\n        <a class=\"btn btn-hollow\"\n          role=\"button\"\n          [href]=\"park.getNpsUrl()\"\n          target=\"_blank\">\n          前往官方網站\n        </a>\n      </td>\n    </tr>\n  </tbody>\n</table>"
 
 /***/ }),
 
@@ -623,7 +723,7 @@ var NpTableComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "button {\n    margin: 2px;\n}\n\n#menu-button {\n    display: flex;\n    margin-bottom: 10px;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbnAvbnAuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLFdBQVc7QUFDZjs7QUFFQTtJQUNJLGFBQWE7SUFDYixtQkFBbUI7QUFDdkIiLCJmaWxlIjoic3JjL2FwcC9ucC9ucC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiYnV0dG9uIHtcbiAgICBtYXJnaW46IDJweDtcbn1cblxuI21lbnUtYnV0dG9uIHtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIG1hcmdpbi1ib3R0b206IDEwcHg7XG59XG4iXX0= */"
+module.exports = "button {\n    margin: 2px;\n}\n\n#menu-button {\n    display: flex;\n    margin-bottom: 10px;\n}\n\n.padding-top {\n    padding-top: 80px;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbnAvbnAuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLFdBQVc7QUFDZjs7QUFFQTtJQUNJLGFBQWE7SUFDYixtQkFBbUI7QUFDdkI7O0FBRUE7SUFDSSxpQkFBaUI7QUFDckIiLCJmaWxlIjoic3JjL2FwcC9ucC9ucC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiYnV0dG9uIHtcbiAgICBtYXJnaW46IDJweDtcbn1cblxuI21lbnUtYnV0dG9uIHtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIG1hcmdpbi1ib3R0b206IDEwcHg7XG59XG5cbi5wYWRkaW5nLXRvcCB7XG4gICAgcGFkZGluZy10b3A6IDgwcHg7XG59XG4iXX0= */"
 
 /***/ }),
 
@@ -634,7 +734,7 @@ module.exports = "button {\n    margin: 2px;\n}\n\n#menu-button {\n    display: 
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container\">\n  <h2>總共有{{ parkList.getLength() }}個國家公園</h2>\n  <p>點選不同國家公園查看遊記與旅遊影片</p>\n  <div class=\"menu-button\">\n    <span>顯示方式：</span>\n    <button\n      type=\"button\"\n      class=\"btn btn-sm\"\n      [ngClass]=\"{\n        'btn-primary' : style == menuStyle.GRID,\n        'btn-secondary' : style != menuStyle.GRID\n      }\"\n      (click)=\"changeMenuStyle(menuStyle.GRID)\"\n    >格狀</button>\n    <button\n      type=\"button\"\n      class=\"btn btn-sm\"\n      [ngClass]=\"{\n        'btn-primary' : style == menuStyle.TABLE,\n        'btn-secondary' : style != menuStyle.TABLE\n      }\"\n      (click)=\"changeMenuStyle(menuStyle.TABLE)\"\n    >列表</button>\n  </div>\n  <div class=\"menu-button\">\n    <span>排序方式：</span>\n    <button\n      type=\"button\"\n      class=\"btn btn-sm\"\n      [ngClass]=\"{\n        'btn-primary' : sort == menuSort.VISITED,\n        'btn-secondary' : sort != menuSort.VISITED\n      }\"\n      (click)=\"changeMenuSort(menuSort.VISITED)\"\n    >已造訪</button>\n    <button\n      type=\"button\"\n      class=\"btn btn-sm\"\n      [ngClass]=\"{\n        'btn-primary' : sort == menuSort.STATE,\n        'btn-secondary' : sort != menuSort.STATE\n      }\"\n      (click)=\"changeMenuSort(menuSort.STATE)\"\n    >英文州名</button>\n    <button\n      type=\"button\"\n      class=\"btn btn-sm\"\n      [ngClass]=\"{\n        'btn-primary' : sort == menuSort.NAME,\n        'btn-secondary' : sort != menuSort.NAME\n      }\"\n      (click)=\"changeMenuSort(menuSort.NAME)\"\n    >英文公園名</button>\n  </div>\n  <div *ngIf=\"style == menuStyle.GRID\" class=\"row\">\n    <app-np-grid\n      *ngFor=\"let park of parkList.getParks(sort)\"\n      class=\"col-lg-4\"\n      [routerLink]=\"['/us-national-parks', park.getParkUrl()]\"\n      [park]=\"park\"\n    ></app-np-grid>\n  </div>\n  <div *ngIf=\"style == menuStyle.TABLE\" class=\"row\">\n    <app-np-table\n      [parkList]=\"parkList\"\n      [sort]=\"sort\"\n    ></app-np-table>\n  </div>\n</div>\n"
+module.exports = "<div class=\"container padding-top\">\n  <h2>總共有{{ parkList.getLength() }}個國家公園</h2>\n  <p>點選不同國家公園查看遊記與旅遊影片</p>\n  <div class=\"menu-button\">\n    <span>顯示方式：</span>\n    <button\n      type=\"button\"\n      class=\"btn btn-sm\"\n      [ngClass]=\"{\n        'btn-primary' : style == menuStyle.GRID,\n        'btn-secondary' : style != menuStyle.GRID\n      }\"\n      (click)=\"changeMenuStyle(menuStyle.GRID)\"\n    >格狀</button>\n    <button\n      type=\"button\"\n      class=\"btn btn-sm\"\n      [ngClass]=\"{\n        'btn-primary' : style == menuStyle.TABLE,\n        'btn-secondary' : style != menuStyle.TABLE\n      }\"\n      (click)=\"changeMenuStyle(menuStyle.TABLE)\"\n    >列表</button>\n  </div>\n  <div class=\"menu-button\">\n    <span>排序方式：</span>\n    <button\n      type=\"button\"\n      class=\"btn btn-sm\"\n      [ngClass]=\"{\n        'btn-primary' : sort == menuSort.VISITED,\n        'btn-secondary' : sort != menuSort.VISITED\n      }\"\n      (click)=\"changeMenuSort(menuSort.VISITED)\"\n    >已造訪</button>\n    <button\n      type=\"button\"\n      class=\"btn btn-sm\"\n      [ngClass]=\"{\n        'btn-primary' : sort == menuSort.STATE,\n        'btn-secondary' : sort != menuSort.STATE\n      }\"\n      (click)=\"changeMenuSort(menuSort.STATE)\"\n    >英文州名</button>\n    <button\n      type=\"button\"\n      class=\"btn btn-sm\"\n      [ngClass]=\"{\n        'btn-primary' : sort == menuSort.NAME,\n        'btn-secondary' : sort != menuSort.NAME\n      }\"\n      (click)=\"changeMenuSort(menuSort.NAME)\"\n    >英文公園名</button>\n  </div>\n  <div *ngIf=\"style == menuStyle.GRID\" class=\"row\">\n    <app-np-grid\n      *ngFor=\"let park of parkList.getParks(sort)\"\n      class=\"col-lg-4\"\n      [park]=\"park\"\n    ></app-np-grid>\n  </div>\n  <div *ngIf=\"style == menuStyle.TABLE\" class=\"row\">\n    <app-np-table\n      [parkList]=\"parkList\"\n      [sort]=\"sort\"\n    ></app-np-table>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -858,6 +958,62 @@ var States = /** @class */ (function () {
     };
     return States;
 }());
+
+
+/***/ }),
+
+/***/ "./src/app/pg/pg.component.css":
+/*!*************************************!*\
+  !*** ./src/app/pg/pg.component.css ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ".padding-top {\n    padding-top: 80px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGcvcGcuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGlCQUFpQjtBQUNyQiIsImZpbGUiOiJzcmMvYXBwL3BnL3BnLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIucGFkZGluZy10b3Age1xuICAgIHBhZGRpbmctdG9wOiA4MHB4O1xufSJdfQ== */"
+
+/***/ }),
+
+/***/ "./src/app/pg/pg.component.html":
+/*!**************************************!*\
+  !*** ./src/app/pg/pg.component.html ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"container padding-top\">\n  <h2>我是一個攝影師</h2>\n</div>"
+
+/***/ }),
+
+/***/ "./src/app/pg/pg.component.ts":
+/*!************************************!*\
+  !*** ./src/app/pg/pg.component.ts ***!
+  \************************************/
+/*! exports provided: PgComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PgComponent", function() { return PgComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+
+
+var PgComponent = /** @class */ (function () {
+    function PgComponent() {
+    }
+    PgComponent.prototype.ngOnInit = function () {
+    };
+    PgComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'app-pg',
+            template: __webpack_require__(/*! ./pg.component.html */ "./src/app/pg/pg.component.html"),
+            styles: [__webpack_require__(/*! ./pg.component.css */ "./src/app/pg/pg.component.css")]
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+    ], PgComponent);
+    return PgComponent;
+}());
+
 
 
 /***/ }),
